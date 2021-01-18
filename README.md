@@ -11,11 +11,11 @@ npm install react-native-castle
 ## Usage
 
 ```js
-import Castle from "react-native-castle";
+import CastleReact from "react-native-castle";
 
 // ...
 
-const result = await Castle.multiply(3, 7);
+const result = await CastleReact.multiply(3, 7);
 ```
 
 ## Contributing

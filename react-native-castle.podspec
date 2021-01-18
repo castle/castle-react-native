@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = package["author"]
 
-  s.platforms    = { :ios => "10.0" }
+  s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://github.com/castle/castle-react-native.git", :tag => "#{s.version}" }
 
   
@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   
 
   s.dependency "React-Core"
+  s.dependency "Castle", "~> 1.0.6"
 end
