@@ -26,7 +26,7 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
       if (options != null) {
         val builder = CastleConfiguration.Builder()
         builder.publishableKey(options.getString("publishableKey"))
-          .screenTrackingEnabled(options.getBoolean("screenTrackingEnabled"))
+          .screenTrackingEnabled(false)
           .debugLoggingEnabled(options.getBoolean("debugLoggingEnabled"))
           .maxQueueLimit(options.getInt("maxQueueLimit"))
           .flushLimit(options.getInt("flushLimit"))
