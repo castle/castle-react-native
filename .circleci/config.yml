@@ -70,7 +70,7 @@ jobs:
       - run:
           name: Codecov
           command: |
-	    yarn codecov
+            yarn codecov
       - store_artifacts:
           path: coverage
           destination: coverage
