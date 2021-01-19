@@ -29,7 +29,9 @@
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn example && yarn && yarn pods",
+    "coverage": "jest --coverage",
+    "codecov": "./node_modules/.bin/codecov -f coverage/coverage-final.json"
   },
   "keywords": [
     "react-native",
@@ -149,5 +151,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "codecov": "^3.8.1"
   }
 }

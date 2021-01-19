@@ -67,6 +67,10 @@ jobs:
           name: Run unit tests
           command: |
             yarn test --coverage
+      - run:
+          name: Codecov
+          command: |
+	    yarn codecov
       - store_artifacts:
           path: coverage
           destination: coverage
