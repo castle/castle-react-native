@@ -6,6 +6,9 @@ import Castle from 'react-native-castle';
 export default function App() {
   const [version, setVersion] = React.useState<string | undefined>();
   const [clientId, setClientId] = React.useState<string | undefined>();
+  const [clientIdHeaderName, setClientIdHeaderName] = React.useState<
+    string | undefined
+  >();
   const [userId, setUserId] = React.useState<string | undefined>();
   const [baseUrl, setBaseUrl] = React.useState<string | undefined>();
   const [queueSize, setQueueSize] = React.useState<number | undefined>();
@@ -22,6 +25,7 @@ export default function App() {
     Castle.queueSize().then(setQueueSize);
     Castle.userSignature().then(setUserSignature);
     Castle.userAgent().then(setUserAgent);
+    Castle.clientIdHeaderName().then(setClientIdHeaderName);
   }, []);
 
   Castle.configure({
@@ -41,6 +45,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Version: {version}</Text>
       <Text>Client id: {clientId}</Text>
+      <Text>Client id header name: {clientIdHeaderName}</Text>
       <Text>User id: {userId}</Text>
       <Text>User signature: {userSignature}</Text>
       <Text>Queue size: {queueSize}</Text>

@@ -30,6 +30,7 @@ type CastleType = {
   isWhitelistUrl(url: string): Promise<boolean>;
   baseUrl(): Promise<string>;
   clientId(): Promise<string>;
+  clientIdHeaderName(): Promise<string>;
   userId(): Promise<string>;
   userSignature(): Promise<string>;
   userAgent(): Promise<string>;

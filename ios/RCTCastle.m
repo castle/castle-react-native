@@ -7,6 +7,16 @@
 RCT_EXPORT_MODULE()
 
 /**
+ Get client id header name
+ */
+RCT_EXPORT_METHOD(clientIdHeaderName
+                  :(RCTPromiseResolveBlock)resolver
+                  :(RCTPromiseRejectBlock)rejecter)
+{
+    resolver(CastleClientIdHeaderName);
+}
+
+/**
  Get SDK version as a string
  */
 RCT_EXPORT_METHOD(versionString

@@ -20,6 +20,7 @@ await Castle.identify('thisisatestuser');
 // Fetch properties
 const version = await Castle.versionString();
 const clientId = await Castle.clientId();
+const clientIdHeaderName = await Castle.clientIdHeaderName();
 const userId = await Castle.userId();
 const queueSize = await Castle.queueSize();
 const userSignature = await Castle.userSignature();
