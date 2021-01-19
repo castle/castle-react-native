@@ -142,7 +142,7 @@ RCT_EXPORT_METHOD(baseUrl
                    :(RCTPromiseRejectBlock)rejecter)
 {
     NSURL *baseUrl = [Castle baseURL];
-    return resolver(baseUrl);
+    return resolver(baseUrl.absoluteString);
 }
 
 #pragma mark - Metadata
