@@ -16,17 +16,6 @@ RCT_EXPORT_METHOD(clientIdHeaderName
     resolver(CastleClientIdHeaderName);
 }
 
-/**
- Get SDK version as a string
- */
-RCT_EXPORT_METHOD(versionString
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSString *versionString = [Castle versionString];
-    resolver(versionString);
-}
-
 #pragma mark - Configuration
 
 /**
@@ -44,7 +33,6 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     configuration.deviceIDAutoForwardingEnabled = NO;
     configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
     configuration.flushLimit = [options[@"flushLimit"] integerValue];
-    configuration.baseURLWhiteList = options[@"baseUrlWhitelist"];
     configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
     
     [Castle configure:configuration];
@@ -142,19 +130,6 @@ RCT_EXPORT_METHOD(flushIfNeeded:(NSURL *)url)
 RCT_EXPORT_METHOD(reset)
 {
     [Castle reset];
-}
-
-/**
- Determine if a given url is whitelisted
-
- @param url url
- @return return url whitelist status
- */
-RCT_EXPORT_METHOD(isWhitelistUrl:(NSURL *)url
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    return resolver(@([Castle isWhitelistURL:url]));
 }
 
 /**

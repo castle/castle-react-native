@@ -5,7 +5,6 @@ export interface Configuration {
   debugLoggingEnabled: boolean;
   maxQueueLimit: number;
   flushLimit: number;
-  baseUrlWhitelist: Array<string>;
   useCloudflareApp: boolean;
 }
 
@@ -18,14 +17,12 @@ export interface JsonList extends Array<JsonValue> {}
 
 type CastleType = {
   configure(configuration: Configuration): Promise<void>;
-  versionString(): Promise<string>;
   identify(userId: string, traits: JsonMap): Promise<void>;
   secure(identifier: string): Promise<string>;
   screen(name: string): Promise<void>;
   flush(): Promise<void>;
   flushIfNeeded(url: string): Promise<boolean>;
   reset(): Promise<void>;
-  isWhitelistUrl(url: string): Promise<boolean>;
   baseUrl(): Promise<string>;
   clientId(): Promise<string>;
   clientIdHeaderName(): Promise<string>;
