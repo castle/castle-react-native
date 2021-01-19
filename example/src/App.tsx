@@ -11,7 +11,9 @@ export default function App() {
   >();
   const [userId, setUserId] = React.useState<string | undefined>();
   const [baseUrl, setBaseUrl] = React.useState<string | undefined>();
-  const [isWhitelistUrl, setIsWhitelistUrl] = React.useState<boolean | undefined>();
+  const [isWhitelistUrl, setIsWhitelistUrl] = React.useState<
+    boolean | undefined
+  >();
   const [queueSize, setQueueSize] = React.useState<number | undefined>();
   const [userSignature, setUserSignature] = React.useState<
     string | undefined
