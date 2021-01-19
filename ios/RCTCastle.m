@@ -144,7 +144,7 @@ RCT_EXPORT_METHOD(reset)
  @param url url
  @return return url whitelist status
  */
-RCT_EXPORT_METHOD(isWhitelistURL:(NSURL *)url
+RCT_EXPORT_METHOD(isWhitelistUrl:(NSURL *)url
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
@@ -156,7 +156,7 @@ RCT_EXPORT_METHOD(isWhitelistURL:(NSURL *)url
 
  @return return Base URL
  */
-RCT_EXPORT_METHOD(baseURL
+RCT_EXPORT_METHOD(baseUrl
                    :(RCTPromiseResolveBlock)resolver
                    :(RCTPromiseRejectBlock)rejecter)
 {
