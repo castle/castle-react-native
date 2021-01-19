@@ -11,6 +11,7 @@ export default function App() {
   >();
   const [userId, setUserId] = React.useState<string | undefined>();
   const [baseUrl, setBaseUrl] = React.useState<string | undefined>();
+  const [isWhitelistUrl, setIsWhitelistUrl] = React.useState<boolean | undefined>();
   const [queueSize, setQueueSize] = React.useState<number | undefined>();
   const [userSignature, setUserSignature] = React.useState<
     string | undefined
@@ -18,34 +19,42 @@ export default function App() {
   const [userAgent, setUserAgent] = React.useState<string | undefined>();
 
   React.useEffect(() => {
-    Castle.versionString().then(setVersion);
-    Castle.clientId().then(setClientId);
-    Castle.userId().then(setUserId);
-    //Castle.baseUrl().then(setBaseUrl);
-    Castle.queueSize().then(setQueueSize);
-    Castle.userSignature().then(setUserSignature);
-    Castle.userAgent().then(setUserAgent);
-    Castle.clientIdHeaderName().then(setClientIdHeaderName);
-  }, []);
+    Castle.configure({
+      publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
+      screenTrackingEnabled: true,
+      debugLoggingEnabled: true,
+      deviceIDAutoForwardingEnabled: true,
+      maxQueueLimit: 1000,
+      flushLimit: 20,
+      baseUrlWhitelist: ['https://google.com/'],
+      useCloudflareApp: false,
+    }).then(async () => {
+      // Setters
+      await Castle.secure(
+        '944d7d6c5187cafac297785bbf6de0136a2e10f31788e92b2822f5cfd407fa52'
+      );
+      await Castle.identify('thisisatestuser1', {});
 
-  Castle.configure({
-    publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
-    screenTrackingEnabled: true,
-    debugLoggingEnabled: true,
-    deviceIDAutoForwardingEnabled: true,
-    maxQueueLimit: 1000,
-    flushLimit: 20,
-    baseUrlWhitelist: ['https://google.com/'],
-    useCloudflareApp: false,
-  }).then(() => {
-    console.log('Castle configured');
-  });
+      // Fetch properties
+      Castle.versionString().then(setVersion);
+      Castle.clientId().then(setClientId);
+      Castle.userId().then(setUserId);
+      Castle.baseUrl().then(setBaseUrl);
+      Castle.isWhitelistUrl('https://google.com/').then(setIsWhitelistUrl);
+      Castle.queueSize().then(setQueueSize);
+      Castle.userSignature().then(setUserSignature);
+      Castle.userAgent().then(setUserAgent);
+      Castle.clientIdHeaderName().then(setClientIdHeaderName);
+    });
+  }, []);
 
   return (
     <View style={styles.container}>
       <Text>Version: {version}</Text>
       <Text>Client id: {clientId}</Text>
       <Text>Client id header name: {clientIdHeaderName}</Text>
+      <Text>BaseUrl: {baseUrl}</Text>
+      <Text>https://google.com/ is whitelisted: {isWhitelistUrl}</Text>
       <Text>User id: {userId}</Text>
       <Text>User signature: {userSignature}</Text>
       <Text>Queue size: {queueSize}</Text>
