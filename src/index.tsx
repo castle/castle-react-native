@@ -2,9 +2,7 @@ import { NativeModules } from 'react-native';
 
 export interface Configuration {
   publishableKey: string;
-  screenTrackingEnabled: boolean;
   debugLoggingEnabled: boolean;
-  deviceIDAutoForwardingEnabled: boolean;
   maxQueueLimit: number;
   flushLimit: number;
   baseUrlWhitelist: Array<string>;

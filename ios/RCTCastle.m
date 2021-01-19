@@ -39,9 +39,9 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
                   :(RCTPromiseRejectBlock)rejecter)
 {
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
-    configuration.screenTrackingEnabled = options[@"screenTrackingEnabled"];
+    configuration.screenTrackingEnabled = NO;
     configuration.debugLoggingEnabled = options[@"debugLoggingEnabled"];
-    configuration.deviceIDAutoForwardingEnabled = options[@"deviceIDAutoForwardingEnabled"];
+    configuration.deviceIDAutoForwardingEnabled = NO;
     configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
     configuration.flushLimit = [options[@"flushLimit"] integerValue];
     configuration.baseURLWhiteList = options[@"baseUrlWhitelist"];
@@ -61,7 +61,13 @@ RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
+    // Use default configuration, disable automatic screen tracking and device auto forwarding
+    CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:publishableKey];
+    configuration.screenTrackingEnabled = NO;
+    configuration.deviceIDAutoForwardingEnabled = NO;
+    
     [Castle configureWithPublishableKey:publishableKey];
+    
     return resolver(nil);
 }
 

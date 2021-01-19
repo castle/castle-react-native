@@ -21,9 +21,7 @@ export default function App() {
   React.useEffect(() => {
     Castle.configure({
       publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
-      screenTrackingEnabled: true,
       debugLoggingEnabled: true,
-      deviceIDAutoForwardingEnabled: true,
       maxQueueLimit: 1000,
       flushLimit: 20,
       baseUrlWhitelist: ['https://google.com/'],
