@@ -38,10 +38,15 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    NSString *json = options[@"json"];
-
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
-
+    configuration.screenTrackingEnabled = options[@"screenTrackingEnabled"];
+    configuration.debugLoggingEnabled = options[@"debugLoggingEnabled"];
+    configuration.deviceIDAutoForwardingEnabled = options[@"deviceIDAutoForwardingEnabled"];
+    configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
+    configuration.flushLimit = [options[@"flushLimit"] integerValue];
+    configuration.baseURLWhiteList = options[@"baseUrlWhitelist"];
+    configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
+    
     [Castle configure:configuration];
 
     return resolver(nil);
@@ -81,12 +86,9 @@ RCT_EXPORT_METHOD(resetConfiguration
  @param identifier user id
  @param traits user traits
  */
-RCT_EXPORT_METHOD(identify:(NSString *)identifier traits:(NSDictionary *)traits
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(identify:(NSString *)identifier traits:(NSDictionary *)traits)
 {
     [Castle identify:identifier traits:traits];
-    return resolver(nil);
 }
 
 /**
@@ -95,12 +97,9 @@ RCT_EXPORT_METHOD(identify:(NSString *)identifier traits:(NSDictionary *)traits
 
  @param signature User signature (SHA-256 HMAC in hex format)
  */
-RCT_EXPORT_METHOD(secure:(NSString *)signature
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(secure:(NSString *)signature)
 {
     [Castle secure:signature];
-    return resolver(nil);
 }
 
 /**
@@ -108,23 +107,17 @@ RCT_EXPORT_METHOD(secure:(NSString *)signature
 
  @param screenName Screen name
  */
-RCT_EXPORT_METHOD(screen:(NSString *)screenName
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(screen:(NSString *)screenName)
 {
     [Castle screen:screenName];
-    return resolver(nil);
 }
 
 /**
  Force a flush of the batch event queue, even if the flush limit hasn't been reached
  */
-RCT_EXPORT_METHOD(flush
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(flush)
 {
     [Castle flush];
-    return resolver(nil);
 }
 
 /**
@@ -132,23 +125,17 @@ RCT_EXPORT_METHOD(flush
 
  @param url Whitelist url
  */
-RCT_EXPORT_METHOD(flushIfNeeded:(NSURL *)url
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(flushIfNeeded:(NSURL *)url)
 {
     [Castle flushIfNeeded:url];
-    return resolver(nil);
 }
 
 /**
  Reset any stored user information and flush the event queue
  */
-RCT_EXPORT_METHOD(reset
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
+RCT_EXPORT_METHOD(reset)
 {
     [Castle reset];
-    return resolver(nil);
 }
 
 /**

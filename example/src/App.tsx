@@ -52,38 +52,30 @@ export default function App() {
       <Text>User Agent: {userAgent}</Text>
       <Button
         title="Track screen view"
-        onPress={() => {
-          Castle.screen('Example screen').then(() => {
-            console.log('Screen tracked');
-          });
+        onPress={async () => {
+          await Castle.screen('Example screen');
         }}
       />
       <Button
         title="Identify"
-        onPress={() => {
-          Castle.identify('thisisatestuser', {}).then(() => {
-            console.log('Identity set');
-          });
+        onPress={async () => {
+          await Castle.identify('thisisatestuser', {});
         }}
       />
       <Button
         title="Test request interception"
-        onPress={() => Alert.alert('Simple Button pressed')}
+        onPress={() => Alert.alert('Request interception pressed')}
       />
       <Button
         title="Flush"
-        onPress={() => {
-          Castle.flush().then(() => {
-            console.log('Flushed');
-          });
+        onPress={async () => {
+          await Castle.flush();
         }}
       />
       <Button
         title="Reset"
-        onPress={() => {
-          Castle.reset().then(() => {
-            console.log('Reset');
-          });
+        onPress={async () => {
+          await Castle.reset();
         }}
       />
     </View>

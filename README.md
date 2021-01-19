@@ -13,9 +13,9 @@ npm install react-native-castle
 ```js
 import Castle from "react-native-castle";
 
-// ...
-
+// Set properties
 await Castle.identify('thisisatestuser');
+await Castle.secure('944d7d6c5187cafac297785bbf6de0136a2e10f31788e92b2822f5cfd407fa52');
 
 // Fetch properties
 const version = await Castle.versionString();
@@ -26,7 +26,7 @@ const queueSize = await Castle.queueSize();
 const userSignature = await Castle.userSignature();
 const userAgent = await Castle.userAgent();
 
-// Configure
+// Configure with custom configuration properties
 Castle.configure({
   publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
   screenTrackingEnabled: true,
@@ -40,6 +40,10 @@ Castle.configure({
   console.log('Castle configured');
 });
 
+// Configure using default configuration properties
+Castle.configureWithPublishableKey('pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ').then(() => {
+  console.log('Castle configured');
+});
 
 ```
 
