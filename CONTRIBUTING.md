@@ -49,9 +49,9 @@ Remember to add tests for your change if possible. Run the unit tests by:
 yarn test
 ```
 
-To edit the Objective-C files, open `example/ios/CastleExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > react-native-castle`.
+To edit the Objective-C files, open `example/ios/CastleExample.xcworkspace` in XCode and find the source files at `Pods > Development Pods > castle-react-native`.
 
-To edit the Kotlin files, open `example/android` in Android studio and find the source files at `reactnativecastle` under `Android`.
+To edit the Kotlin files, open `example/android` in Android studio and find the source files at `castlereactnative` under `Android`.
 
 ### Commit message convention
 
