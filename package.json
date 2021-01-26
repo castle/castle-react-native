@@ -1,5 +1,5 @@
 {
-  "name": "react-native-castle",
+  "name": "@castleio/react-native-sdk",
   "version": "0.1.0",
   "description": "Castle SDK for React Native",
   "main": "lib/commonjs/index",
@@ -13,7 +13,7 @@
     "android",
     "ios",
     "cpp",
-    "react-native-castle.podspec",
+    "castle-react-native.podspec",
     "!lib/typescript/example",
     "!android/build",
     "!ios/build",
