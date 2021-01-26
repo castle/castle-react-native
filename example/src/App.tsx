@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-
 import { StyleSheet, View, Text, Button, Alert } from 'react-native';
 import Castle from 'react-native-castle';
 
