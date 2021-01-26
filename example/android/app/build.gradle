@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.example.castlereactnative"
+        applicationId "com.example.reactnativecastle"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -204,7 +204,7 @@ dependencies {
         implementation jscFlavor
     }
 
-    implementation project(':castlereactnative')
+    implementation project(':reactnativecastle')
 }
 
 // Run this once to be able to run the application with BUCK

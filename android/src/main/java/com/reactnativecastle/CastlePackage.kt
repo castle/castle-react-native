@@ -1,4 +1,4 @@
-package com.castlereactnative
+package com.reactnativecastle
 
 import com.facebook.react.ReactPackage
 import com.facebook.react.bridge.NativeModule

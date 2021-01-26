@@ -8,7 +8,7 @@ target 'CastleExample' do
 
   use_react_native!(:path => config["reactNativePath"])
 
-  pod 'castle-react-native', :path => '../..'
+  pod 'react-native-castle', :path => '../..'
 
   # Enables Flipper.
   #

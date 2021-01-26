@@ -2,5 +2,5 @@ rootProject.name = 'CastleExample'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
 
-include ':castlereactnative'
-project(':castlereactnative').projectDir = new File(rootProject.projectDir, '../../android')
+include ':reactnativecastle'
+project(':reactnativecastle').projectDir = new File(rootProject.projectDir, '../../android')

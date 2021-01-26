@@ -1,4 +1,4 @@
-package com.castlereactnative
+package com.reactnativecastle
 
 import android.app.Application
 import com.facebook.react.bridge.*

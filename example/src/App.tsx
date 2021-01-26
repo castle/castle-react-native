@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, Button, Alert } from 'react-native';
-import Castle from '@castleio/react-native-sdk';
+import Castle from '@casteio/react-native-castle';
 
 export default function App() {
   const [clientId, setClientId] = useState<string | undefined>();
