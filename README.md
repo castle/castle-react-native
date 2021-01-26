@@ -2,10 +2,10 @@
 
 **[Castle](https://castle.io) adds real-time monitoring of your authentication stack, instantly notifying you and your users on potential account hijacks.**
 
-[![npm](https://img.shields.io/npm/v/react-native-castle)](https://www.npmjs.com/package/react-native-castle)
-[![License](https://img.shields.io/npm/l/react-native-castle)](https://www.npmjs.com/package/react-native-castle)
-[![CircleCI](https://img.shields.io/circleci/build/github/castle/react-native-castle/master?token=5e33890a81d6ff15736b559ad252a3b6ab6db9b2)](https://circleci.com/gh/castle/react-native-castle)
-[![codecov](https://codecov.io/gh/castle/react-native-castle/branch/master/graph/badge.svg)](https://codecov.io/gh/castle/react-native-castle)
+[![npm](https://img.shields.io/npm/v/@castleio/react-native-sdk)](https://www.npmjs.com/package/@castleio/react-native-sdk)
+[![License](https://img.shields.io/npm/l/@castleio/react-native-sdk)](https://www.npmjs.com/package/@castleio/react-native-sdk)
+[![CircleCI](https://img.shields.io/circleci/build/github/castle/@castleio/react-native-sdk/master?token=5e33890a81d6ff15736b559ad252a3b6ab6db9b2)](https://circleci.com/gh/castle/@castleio/react-native-sdk)
+[![codecov](https://codecov.io/gh/castle/@castleio/react-native-sdk/branch/master/graph/badge.svg)](https://codecov.io/gh/castle/@castleio/react-native-sdk)
 
 ## Requirements
 
@@ -21,16 +21,24 @@
 
 ## Installation
 
-Castle is available through `npm`
+Add the `@castleio/react-native-sdk` package to your `package.json`.
 
-```sh
-npm install react-native-castle
+### yarn
+
+```bash
+yarn add @castleio/react-native-sdk
+```
+
+### npm
+
+```bash
+npm install --save @castleio/react-native-sdk
 ```
 
 ## Usage
 
 ```js
-import Castle from "react-native-castle";
+import Castle from "@castleio/react-native-sdk";
 
 // Set properties
 await Castle.identify('thisisatestuser');
