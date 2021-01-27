@@ -1,22 +1,19 @@
-import * as React from 'react';
-
+import React, { useEffect, useState } from 'react';
 import { StyleSheet, View, Text, Button, Alert } from 'react-native';
-import Castle from 'react-native-castle';
+import Castle from '@casteio/react-native-castle';
 
 export default function App() {
-  const [clientId, setClientId] = React.useState<string | undefined>();
-  const [clientIdHeaderName, setClientIdHeaderName] = React.useState<
+  const [clientId, setClientId] = useState<string | undefined>();
+  const [clientIdHeaderName, setClientIdHeaderName] = useState<
     string | undefined
   >();
-  const [userId, setUserId] = React.useState<string | undefined>();
-  const [baseUrl, setBaseUrl] = React.useState<string | undefined>();
-  const [queueSize, setQueueSize] = React.useState<number | undefined>();
-  const [userSignature, setUserSignature] = React.useState<
-    string | undefined
-  >();
-  const [userAgent, setUserAgent] = React.useState<string | undefined>();
+  const [userId, setUserId] = useState<string | undefined>();
+  const [baseUrl, setBaseUrl] = useState<string | undefined>();
+  const [queueSize, setQueueSize] = useState<number | undefined>();
+  const [userSignature, setUserSignature] = useState<string | undefined>();
+  const [userAgent, setUserAgent] = useState<string | undefined>();
 
-  React.useEffect(() => {
+  useEffect(() => {
     Castle.configure({
       publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
       debugLoggingEnabled: true,
