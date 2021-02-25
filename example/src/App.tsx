@@ -19,9 +19,7 @@ export default function App() {
       debugLoggingEnabled: true,
       maxQueueLimit: 1000,
       flushLimit: 20,
-      useCloudflareApp: false,
-      apiDomain: "",
-      apiPath: ""
+      useCloudflareApp: false
     }).then(async () => {
       // Setters
       await Castle.secure(

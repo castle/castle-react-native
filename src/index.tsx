@@ -2,12 +2,12 @@ import { NativeModules } from 'react-native';
 
 export interface Configuration {
   publishableKey: string;
-  debugLoggingEnabled: boolean;
-  maxQueueLimit: number;
-  flushLimit: number;
-  useCloudflareApp: boolean;
-  apiDomain: string,
-  apiPath: string
+  debugLoggingEnabled?: boolean;
+  maxQueueLimit?: number;
+  flushLimit?: number;
+  useCloudflareApp?: boolean;
+  apiDomain?: string,
+  apiPath?: string
 }
 
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
