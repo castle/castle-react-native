@@ -26,13 +26,25 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
       if (options != null) {
         val builder = CastleConfiguration.Builder()
         builder.publishableKey(options.getString("publishableKey"))
-          .screenTrackingEnabled(false)
-          .debugLoggingEnabled(options.getBoolean("debugLoggingEnabled"))
-          .maxQueueLimit(options.getInt("maxQueueLimit"))
-          .flushLimit(options.getInt("flushLimit"))
-          .useCloudflareApp(options.getBoolean("useCloudflareApp"))
-          .apiDomain(options.getString("apiDomain"))
-          .apiPath(options.getString("apiPath"))
+        builder.screenTrackingEnabled(false)
+        if (options.hasKey("debugLoggingEnabled")) {
+            builder.debugLoggingEnabled(options.getBoolean("debugLoggingEnabled"))
+        }
+        if (options.hasKey("maxQueueLimit")) {
+            builder.maxQueueLimit(options.getInt("maxQueueLimit"))
+        }
+        if (options.hasKey("flushLimit")) {
+            builder.flushLimit(options.getInt("flushLimit"))
+        }
+        if (options.hasKey("useCloudflareApp")) {
+            builder.useCloudflareApp(options.getBoolean("useCloudflareApp"))
+        }
+        if (options.hasKey("apiDomain")) {
+            builder.apiDomain(options.getString("apiDomain"))
+        }
+        if (options.hasKey("apiPath")) {
+            builder.apiPath(options.getString("apiPath"))
+        }
 
         Castle.configure(reactApplicationContext.applicationContext as Application, builder.build())
 
