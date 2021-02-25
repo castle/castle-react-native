@@ -20,6 +20,8 @@ export default function App() {
       maxQueueLimit: 1000,
       flushLimit: 20,
       useCloudflareApp: false,
+      apiDomain: "",
+      apiPath: ""
     }).then(async () => {
       // Setters
       await Castle.secure(

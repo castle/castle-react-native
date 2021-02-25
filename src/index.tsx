@@ -6,6 +6,8 @@ export interface Configuration {
   maxQueueLimit: number;
   flushLimit: number;
   useCloudflareApp: boolean;
+  apiDomain: string,
+  apiPath: string
 }
 
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
