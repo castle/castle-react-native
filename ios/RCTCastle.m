@@ -27,14 +27,36 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
+    // Configuration, disable automatic screen tracking.
+    // Since there is no straightforward way of adding global headers deviceIDAutoForwardingEnabled needs to be enabled
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
     configuration.screenTrackingEnabled = NO;
-    configuration.debugLoggingEnabled = options[@"debugLoggingEnabled"];
-    configuration.deviceIDAutoForwardingEnabled = NO;
-    configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
-    configuration.flushLimit = [options[@"flushLimit"] integerValue];
-    configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
+    configuration.deviceIDAutoForwardingEnabled = YES;
+
+    if (options[@"debugLoggingEnabled"]) {
+        configuration.debugLoggingEnabled = [options[@"debugLoggingEnabled"] boolValue];
+    }
     
+    if (options[@"maxQueueLimit"]) {
+        configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
+    }
+    
+    if (options[@"flushLimit"]) {
+        configuration.flushLimit = [options[@"flushLimit"] integerValue];
+    }
+    
+    if (options[@"useCloudflareApp"]) {
+        configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
+    }
+    
+    if (options[@"apiDomain"]) {
+        configuration.apiDomain = [options[@"apiDomain"] stringValue];
+    }
+    
+    if (options[@"apiPath"]) {
+        configuration.apiPath = [options[@"apiPath"] stringValue];
+    }
+
     [Castle configure:configuration];
 
     return resolver(nil);
@@ -49,13 +71,14 @@ RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    // Use default configuration, disable automatic screen tracking and device auto forwarding
+    // Use default configuration, disable automatic screen tracking
+    // Since there is no straightforward way of adding global headers deviceIDAutoForwardingEnabled needs to be enabled
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:publishableKey];
     configuration.screenTrackingEnabled = NO;
     configuration.deviceIDAutoForwardingEnabled = NO;
-    
+
     [Castle configureWithPublishableKey:publishableKey];
-    
+
     return resolver(nil);
 }
 
