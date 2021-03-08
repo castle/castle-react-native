@@ -8,6 +8,7 @@ export interface Configuration {
   useCloudflareApp?: boolean;
   apiDomain?: string;
   apiPath?: string;
+  allowList?: string[]
 }
 
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
