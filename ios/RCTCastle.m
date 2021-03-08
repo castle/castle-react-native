@@ -57,6 +57,10 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
         configuration.apiPath = [options[@"apiPath"] stringValue];
     }
 
+    if (options[@"allowList"]) {
+        configuration.baseURLWhiteList = options[@"allowList"];
+    }
+
     [Castle configure:configuration];
 
     return resolver(nil);
