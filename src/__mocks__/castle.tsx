@@ -1,4 +1,6 @@
-export default {
+import { NativeModules } from 'react-native';
+
+NativeModules.Castle = {
   configure: jest.fn(),
   identify: jest.fn(),
   secure: jest.fn(),
