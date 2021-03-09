@@ -45,6 +45,18 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
         if (options.hasKey("apiPath")) {
             builder.apiPath(options.getString("apiPath"))
         }
+        if (options.hasKey("baseURLAllowList")) {
+            val array = options.getArray("baseURLAllowList")
+            array?.let {
+              val baseURLAllowList = mutableListOf<String>()
+              for (i in 0 until array.size()) {
+                array.getString(i)?.let {
+                  s -> baseURLAllowList.add(s)
+                }
+              }
+              builder.baseURLAllowList(baseURLAllowList)
+            }
+        }
 
         Castle.configure(reactApplicationContext.applicationContext as Application, builder.build())
 

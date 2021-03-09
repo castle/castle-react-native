@@ -20,6 +20,7 @@ export default function App() {
       maxQueueLimit: 1000,
       flushLimit: 20,
       useCloudflareApp: false,
+      baseURLAllowList: ['google.com', 'docs.castle.io'],
     }).then(async () => {
       // Setters
       await Castle.secure(

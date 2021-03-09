@@ -36,25 +36,29 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     if (options[@"debugLoggingEnabled"]) {
         configuration.debugLoggingEnabled = [options[@"debugLoggingEnabled"] boolValue];
     }
-    
+
     if (options[@"maxQueueLimit"]) {
         configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
     }
-    
+
     if (options[@"flushLimit"]) {
         configuration.flushLimit = [options[@"flushLimit"] integerValue];
     }
-    
+
     if (options[@"useCloudflareApp"]) {
         configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
     }
-    
+
     if (options[@"apiDomain"]) {
         configuration.apiDomain = [options[@"apiDomain"] stringValue];
     }
-    
+
     if (options[@"apiPath"]) {
         configuration.apiPath = [options[@"apiPath"] stringValue];
+    }
+
+    if (options[@"baseURLAllowList"]) {
+        configuration.baseURLWhiteList = options[@"baseURLAllowList"];
     }
 
     [Castle configure:configuration];
