@@ -54,7 +54,7 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
                   s -> baseURLAllowList.add(s)
                 }
               }
-              builder.baseURLWhiteList(baseURLAllowList)
+              builder.baseURLAllowList(baseURLAllowList)
             }
         }
 

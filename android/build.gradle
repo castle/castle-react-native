@@ -5,6 +5,7 @@ buildscript {
   repositories {
     google()
     jcenter()
+    mavenCentral()
   }
 
   dependencies {
@@ -127,5 +128,5 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  api 'io.castle.android:castle:1.2.1'
+  api 'io.castle.android:castle:1.2.2'
 }
