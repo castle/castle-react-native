@@ -35,6 +35,10 @@ type CastleType = {
   queueSize(): Promise<number>;
 };
 
-const { Castle } = NativeModules;
+export const { Castle } = NativeModules;
+
+if (!Castle) {
+  throw new Error('Failed to load Castle native module.');
+}
 
 export default Castle as CastleType;
