@@ -45,16 +45,16 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
         if (options.hasKey("apiPath")) {
             builder.apiPath(options.getString("apiPath"))
         }
-        if (options.hasKey("allowList")) {
-            val array = options.getArray("allowList")
+        if (options.hasKey("baseURLAllowList")) {
+            val array = options.getArray("baseURLAllowList")
             array?.let {
-              val allowList = mutableListOf<String>()
+              val baseURLAllowList = mutableListOf<String>()
               for (i in 0 until array.size()) {
                 array.getString(i)?.let {
-                  s -> allowList.add(s)
+                  s -> baseURLAllowList.add(s)
                 }
               }
-              builder.baseURLWhiteList(allowList)
+              builder.baseURLWhiteList(baseURLAllowList)
             }
         }
 
