@@ -18,5 +18,5 @@ Pod::Spec.new do |s|
 
 
   s.dependency "React-Core"
-  s.dependency "Castle", "~> 1.0.6"
+  s.dependency "Castle", "~> 1.0.9"
 end

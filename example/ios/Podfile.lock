@@ -1,6 +1,6 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - Castle (1.0.7)
+  - Castle (1.0.9)
   - DoubleConversion (1.1.6)
   - FBLazyVector (0.61.0)
   - FBReactNativeSpec (0.61.0):
@@ -184,7 +184,7 @@ PODS:
     - React-jsi (= 0.61.0)
   - React-jsinspector (0.61.0)
   - react-native-castle (0.1.0):
-    - Castle (~> 1.0.6)
+    - Castle (~> 1.0.9)
     - React-Core
   - React-RCTActionSheet (0.61.0):
     - React-Core/RCTActionSheetHeaders (= 0.61.0)
@@ -315,7 +315,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  Castle: f3e69de65337604e604355fa72eaffcd5efb02f4
+  Castle: cd75b775123de9b4a82676d34259379b8ecfdbf6
   DoubleConversion: 5805e889d232975c086db112ece9ed034df7a0b2
   FBLazyVector: 815d415da87ffb4308b229ffe4b531799d118c6c
   FBReactNativeSpec: a43dfecd1f9e31d5729a38adafba1790c4c6c950
@@ -330,7 +330,7 @@ SPEC CHECKSUMS:
   React-jsi: 4b5e521350c455b5eb4be50ea98c02de25b44fad
   React-jsiexecutor: 5532ab4389aabbbf1b87904de04c8ddd7dda7036
   React-jsinspector: 99b82aeb51d67d9025ab4eb8ccb8132f8dcebf69
-  react-native-castle: 5c0e3a063f854a1c5acd764c6aae269944889c1f
+  react-native-castle: e31ef1e05930f7dfce36ae0f1919273441eda4de
   React-RCTActionSheet: 5f9a1733ec8e380aae8a97877f1166cb058733ae
   React-RCTAnimation: 3e0a55305b70b1eb5a5e34230ed8198d4a782da9
   React-RCTBlob: a6ff2220ed7ef4b06e559ec61a0b0f4e80a3716a
@@ -345,4 +345,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 5a697b66e7dd7bac489368c0c918036431433fab
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
