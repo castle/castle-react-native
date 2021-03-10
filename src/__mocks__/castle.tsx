@@ -15,4 +15,5 @@ NativeModules.Castle = {
   userSignature: jest.fn(),
   userAgent: jest.fn(),
   queueSize: jest.fn(),
+  versionString: jest.fn(),
 };
