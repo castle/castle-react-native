@@ -1,5 +1,5 @@
 {
-  "name": "@casteio/react-native-castle",
+  "name": "@castleio/react-native-castle",
   "version": "1.0.0",
   "description": "Castle SDK for React Native",
   "main": "lib/commonjs/index",
