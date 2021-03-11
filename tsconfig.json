@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@casteio/react-native-castle": ["./src/index"]
+      "@castleio/react-native-castle": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
