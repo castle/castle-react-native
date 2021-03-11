@@ -5,10 +5,10 @@
 Create a new `X.Y.Z` branch from `master` and run:
 
 ```bash
-yarn version <--major | --minor | --patch>
+npm version <--major | --minor | --patch>
 
 # E.g., to upgrade, from 0.0.0 to 0.0.1 version, please run:
-# yarn version --patch
+# npm version --patch
 
 # after that commit files and create a version tag
 git tag -a version -m "<version>"
