@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 (2021-03-11)
+**Enhancements:**
+
+- add relese instructions
+
 ## 1.0.1 (2021-03-11)
 **Enhancements:**
 
