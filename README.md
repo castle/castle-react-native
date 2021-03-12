@@ -37,7 +37,7 @@ npm install --save @castleio/react-native-castle
 
 ## Usage
 
-Please see the [Mobile Integration Guide](https://castle.io/docs/mobile).
+Please see the [Mobile Integration Guide](https://docs.castle.io).
 
 ## Contributing
 
