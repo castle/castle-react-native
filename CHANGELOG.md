@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.4 (2021-03-12)
+**Enhancements:**
+
+- [#17](https://github.com/castle/castle-react-native/pull/17) update supported Android version
+- [#16](https://github.com/castle/castle-react-native/pull/16) link to Castle Docs
+
 ## 1.0.3 (2021-03-11)
 **Enhancements:**
 
