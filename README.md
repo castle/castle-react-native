@@ -17,7 +17,7 @@
  - Xcode 8.2+
 
 ### Android
- - Android 4.0
+ - Android 5.0
 
 ## Installation
 
