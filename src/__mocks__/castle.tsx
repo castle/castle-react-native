@@ -2,6 +2,7 @@ import { NativeModules } from 'react-native';
 
 NativeModules.Castle = {
   configure: jest.fn(),
+  configureWithPublishableKey: jest.fn(),
   identify: jest.fn(),
   secure: jest.fn(),
   screen: jest.fn(),

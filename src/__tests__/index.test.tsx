@@ -6,9 +6,11 @@ it('exports an instance of Castle', () => {
   expect(typeof Castle).toEqual('object');
 });
 
+const publishableKey = 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ';
+
 beforeEach(async () => {
   await Castle.configure({
-    publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
+    publishableKey,
     debugLoggingEnabled: true,
     maxQueueLimit: 1000,
     flushLimit: 20,
@@ -40,3 +42,10 @@ it('call .userId()', testCall('userId'));
 it('call .queueSize()', testCall('queueSize'));
 it('call .userSignature()', testCall('userSignature'));
 it('call .userAgent()', testCall('userAgent'));
+it(
+  'call .configureWithPublishableKey()',
+  testCall(
+    'configureWithPublishableKey',
+    publishableKey
+  )
+);
