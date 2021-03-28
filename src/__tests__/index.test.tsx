@@ -44,8 +44,5 @@ it('call .userSignature()', testCall('userSignature'));
 it('call .userAgent()', testCall('userAgent'));
 it(
   'call .configureWithPublishableKey()',
-  testCall(
-    'configureWithPublishableKey',
-    publishableKey
-  )
+  testCall('configureWithPublishableKey', publishableKey)
 );
