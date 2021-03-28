@@ -58,7 +58,7 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     }
 
     if (options[@"baseURLAllowList"]) {
-        configuration.baseURLWhiteList = options[@"baseURLAllowList"];
+        configuration.baseURLAllowList = options[@"baseURLAllowList"];
     }
 
     [Castle configure:configuration];
