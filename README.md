@@ -1,6 +1,6 @@
 # Castle for React Native
 
-**[Castle](https://castle.io) adds real-time monitoring of your authentication stack, instantly notifying you and your users on potential account hijacks.**
+**[Castle](https://castle.io) adds real-time monitoring to your authentication stack, instantly notifying you and your users of potential account hijacks.**
 
 [![npm](https://img.shields.io/npm/v/@castleio/react-native-castle)](https://www.npmjs.com/package/@castleio/react-native-castle)
 [![License](https://img.shields.io/npm/l/@castleio/react-native-castle)](https://www.npmjs.com/package/@castleio/react-native-castle)
