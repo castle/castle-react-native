@@ -3,7 +3,7 @@
 ## 1.0.5 (2021-03-29)
 **Bug fixes:**
 
-- [#20](https://github.com/castle/castle-react-native/pull/20) update supported Android version
+- [#20](https://github.com/castle/castle-react-native/pull/20) update Castle type
 
 ## 1.0.4 (2021-03-12)
 **Enhancements:**
