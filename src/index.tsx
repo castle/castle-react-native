@@ -20,6 +20,7 @@ export interface JsonList extends Array<JsonValue> {}
 
 type CastleType = {
   configure(configuration: Configuration): Promise<void>;
+  configureWithPublishableKey(publishableKey: string): Promise<void>;
   identify(userId: string, traits: JsonMap): Promise<void>;
   secure(identifier: string): Promise<string>;
   screen(name: string): Promise<void>;
