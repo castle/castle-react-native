@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.6
+**Bug fixes:**
+
+- [#24](https://github.com/castle/castle-react-native/pull/24) update to Castle Android 2.0.1
+- [#23](https://github.com/castle/castle-react-native/pull/23) update to Castle iOS 2.0.0
+
 ## 1.0.5 (2021-03-29)
 **Bug fixes:**
 
