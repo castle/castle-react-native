@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.6
+## 1.0.6 (2021-04-28)
 **Bug fixes:**
 
 - [#24](https://github.com/castle/castle-react-native/pull/24) update to Castle Android 2.0.1
