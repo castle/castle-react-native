@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.7 (2021-05-03)
+**Bug fixes:**
+
+- [#28](https://github.com/castle/castle-react-native/pull/28) iOS call native module on main thread
+- [#27](https://github.com/castle/castle-react-native/pull/27) update to Castle Android 2.0.2
+
+
 ## 1.0.6 (2021-04-28)
 **Bug fixes:**
 
