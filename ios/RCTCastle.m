@@ -6,6 +6,11 @@
 
 RCT_EXPORT_MODULE()
 
+- (dispatch_queue_t)methodQueue
+{
+    return dispatch_get_main_queue();
+}
+
 /**
  Get client id header name
  */
@@ -20,7 +25,7 @@ RCT_EXPORT_METHOD(clientIdHeaderName
 
 /**
  Configure Castle using the provided configuration
-
+ 
  @param configuration CastleConfiguration instance
  */
 RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
@@ -32,43 +37,43 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
     configuration.screenTrackingEnabled = NO;
     configuration.deviceIDAutoForwardingEnabled = YES;
-
+    
     if (options[@"debugLoggingEnabled"]) {
         configuration.debugLoggingEnabled = [options[@"debugLoggingEnabled"] boolValue];
     }
-
+    
     if (options[@"maxQueueLimit"]) {
         configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
     }
-
+    
     if (options[@"flushLimit"]) {
         configuration.flushLimit = [options[@"flushLimit"] integerValue];
     }
-
+    
     if (options[@"useCloudflareApp"]) {
         configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
     }
-
+    
     if (options[@"apiDomain"]) {
         configuration.apiDomain = [options[@"apiDomain"] stringValue];
     }
-
+    
     if (options[@"apiPath"]) {
         configuration.apiPath = [options[@"apiPath"] stringValue];
     }
-
+    
     if (options[@"baseURLAllowList"]) {
         configuration.baseURLAllowList = options[@"baseURLAllowList"];
     }
-
+    
     [Castle configure:configuration];
-
+    
     return resolver(nil);
 }
 
 /**
  Configure Castle with default configuration using publishable key
-
+ 
  @param publishableKey Castle publishable key
  */
 RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
@@ -80,9 +85,9 @@ RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:publishableKey];
     configuration.screenTrackingEnabled = NO;
     configuration.deviceIDAutoForwardingEnabled = NO;
-
+    
     [Castle configureWithPublishableKey:publishableKey];
-
+    
     return resolver(nil);
 }
 
@@ -103,7 +108,7 @@ RCT_EXPORT_METHOD(resetConfiguration
 /**
  Track identify event with specified user identity. User identity will be persisted. A call to identify or reset will clear the stored user identity.
  Provided user traits will be included in the identify event sent to the Castle API.
-
+ 
  @param identifier user id
  @param traits user traits
  */
@@ -115,7 +120,7 @@ RCT_EXPORT_METHOD(identify:(NSString *)identifier traits:(NSDictionary *)traits)
 /**
  Set user signature and enable secure mode. User signature will be included in all events after it has been set and will be persisted.
  A stored user signature will be removed when the user signature or reset methods are called.
-
+ 
  @param signature User signature (SHA-256 HMAC in hex format)
  */
 RCT_EXPORT_METHOD(secure:(NSString *)signature)
@@ -125,7 +130,7 @@ RCT_EXPORT_METHOD(secure:(NSString *)signature)
 
 /**
  Track screen event with a specified name
-
+ 
  @param screenName Screen name
  */
 RCT_EXPORT_METHOD(screen:(NSString *)screenName)
@@ -143,7 +148,7 @@ RCT_EXPORT_METHOD(flush)
 
 /**
  Force a flush if needed for a specific url, flushes if url is whitelisted
-
+ 
  @param url Whitelist url
  */
 RCT_EXPORT_METHOD(flushIfNeeded:(NSURL *)url)
@@ -161,12 +166,12 @@ RCT_EXPORT_METHOD(reset)
 
 /**
  Get base url
-
+ 
  @return return Base URL
  */
 RCT_EXPORT_METHOD(baseUrl
-                   :(RCTPromiseResolveBlock)resolver
-                   :(RCTPromiseRejectBlock)rejecter)
+                  :(RCTPromiseResolveBlock)resolver
+                  :(RCTPromiseRejectBlock)rejecter)
 {
     NSURL *baseUrl = [Castle baseURL];
     return resolver(baseUrl.absoluteString);
@@ -176,12 +181,12 @@ RCT_EXPORT_METHOD(baseUrl
 
 /**
  Get client identifier if set, otherwise returns nil
-
+ 
  @return client identifier
  */
 RCT_EXPORT_METHOD(clientId
-                   :(RCTPromiseResolveBlock)resolver
-                   :(RCTPromiseRejectBlock)rejecter)
+                  :(RCTPromiseResolveBlock)resolver
+                  :(RCTPromiseRejectBlock)rejecter)
 {
     NSString *clientId = [Castle clientId];
     return resolver(clientId);
@@ -189,7 +194,7 @@ RCT_EXPORT_METHOD(clientId
 
 /**
  Get stored user id from last identify call, returns nil if not set
-
+ 
  @return User Id
  */
 RCT_EXPORT_METHOD(userId
@@ -202,7 +207,7 @@ RCT_EXPORT_METHOD(userId
 
 /**
  Get stored signature from secure call, returns nil if not set
-
+ 
  @return Signature
  */
 RCT_EXPORT_METHOD(userSignature
@@ -216,7 +221,7 @@ RCT_EXPORT_METHOD(userSignature
 /**
  Get the User Agent for used in all requests to the Castle API.
  User agent will have the following format: App Name/x.x (xxxx) (iPhone XR; iOS xx.x; Castle x.x.x)
-
+ 
  @return User Agent
  */
 RCT_EXPORT_METHOD(userAgent
@@ -229,7 +234,7 @@ RCT_EXPORT_METHOD(userAgent
 
 /**
  Get the current size of the event queue
-
+ 
  @return return The current size of the event queue
  */
 RCT_EXPORT_METHOD(queueSize
