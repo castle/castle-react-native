@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.8 (2021-05-06)
+**Bug fixes:**
+
+- [#31](https://github.com/castle/castle-react-native/pull/31) Update to Castle Android 2.0.3
+- [#30](https://github.com/castle/castle-react-native/pull/30) remove package-lock.json from the example
+
 ## 1.0.7 (2021-05-03)
 **Bug fixes:**
 
