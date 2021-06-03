@@ -180,15 +180,15 @@ RCT_EXPORT_METHOD(baseUrl
 #pragma mark - Metadata
 
 /**
- Get client identifier if set, otherwise returns nil
+ Create request token
  
- @return client identifier
+ @return request token
  */
-RCT_EXPORT_METHOD(clientId
+RCT_EXPORT_METHOD(createRequestToken
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    NSString *clientId = [Castle clientId];
+    NSString *clientId = [Castle createRequestToken];
     return resolver(clientId);
 }
 
