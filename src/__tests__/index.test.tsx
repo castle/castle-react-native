@@ -38,6 +38,7 @@ it(
 it('call .versionString()', testCall('versionString'));
 it('call .clientId()', testCall('clientId'));
 it('call .clientIdHeaderName()', testCall('clientIdHeaderName'));
+it('call .requestTokenHeaderName()', testCall('requestTokenHeaderName'));
 it('call .userId()', testCall('userId'));
 it('call .queueSize()', testCall('queueSize'));
 it('call .userSignature()', testCall('userSignature'));

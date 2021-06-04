@@ -21,6 +21,16 @@ RCT_EXPORT_METHOD(clientIdHeaderName
     resolver(CastleClientIdHeaderName);
 }
 
+/**
+ Get requesst token header name
+ */
+RCT_EXPORT_METHOD(requestTokenHeaderName
+                  :(RCTPromiseResolveBlock)resolver
+                  :(RCTPromiseRejectBlock)rejecter)
+{
+    resolver(CastleRequestTokenHeaderName);
+}
+
 #pragma mark - Configuration
 
 /**

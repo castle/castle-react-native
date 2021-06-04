@@ -7,6 +7,9 @@ export default function App() {
   const [clientIdHeaderName, setClientIdHeaderName] = useState<
     string | undefined
   >();
+  const [requestTokenHeaderName, setRequestTokenHeaderName] = useState<
+    string | undefined
+  >();
   const [userId, setUserId] = useState<string | undefined>();
   const [baseUrl, setBaseUrl] = useState<string | undefined>();
   const [queueSize, setQueueSize] = useState<number | undefined>();
@@ -36,6 +39,7 @@ export default function App() {
       Castle.userSignature().then(setUserSignature);
       Castle.userAgent().then(setUserAgent);
       Castle.clientIdHeaderName().then(setClientIdHeaderName);
+      Castle.requestTokenHeaderName().then(setRequestTokenHeaderName);
     });
   }, []);
 
@@ -43,6 +47,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Client id: {clientId}</Text>
       <Text>Client id header name: {clientIdHeaderName}</Text>
+      <Text>Request token header name: {requestTokenHeaderName}</Text>
       <Text>BaseUrl: {baseUrl}</Text>
       <Text>User id: {userId}</Text>
       <Text>User signature: {userSignature}</Text>
