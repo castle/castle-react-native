@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(clientIdHeaderName
 }
 
 /**
- Get requesst token header name
+ Get request token header name
  */
 RCT_EXPORT_METHOD(requestTokenHeaderName
                   :(RCTPromiseResolveBlock)resolver
@@ -188,6 +188,19 @@ RCT_EXPORT_METHOD(baseUrl
 }
 
 #pragma mark - Metadata
+
+/**
+ Get client id
+
+ @return request token
+ */
+RCT_EXPORT_METHOD(clientId
+                  :(RCTPromiseResolveBlock)resolver
+                  :(RCTPromiseRejectBlock)rejecter)
+{
+    NSString *clientId = [Castle createRequestToken];
+    return resolver(clientId);
+}
 
 /**
  Create request token
