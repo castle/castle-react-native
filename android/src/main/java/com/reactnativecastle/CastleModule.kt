@@ -138,6 +138,11 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
+    fun createRequestToken(promise: Promise) {
+      promise.resolve(Castle.createRequestToken())
+    }
+
+    @ReactMethod
     fun userId(promise: Promise) {
       promise.resolve(Castle.userId())
     }
