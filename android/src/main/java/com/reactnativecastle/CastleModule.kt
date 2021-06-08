@@ -12,6 +12,11 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
+    fun requestTokenHeaderName(promise: Promise) {
+      promise.resolve(Castle.requestTokenHeaderName)
+    }
+
+    @ReactMethod
     fun clientIdHeaderName(promise: Promise) {
       promise.resolve(Castle.clientIdHeaderName)
     }
@@ -129,7 +134,12 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
 
     @ReactMethod
     fun clientId(promise: Promise) {
-      promise.resolve(Castle.clientId())
+      promise.resolve(Castle.createRequestToken())
+    }
+
+    @ReactMethod
+    fun createRequestToken(promise: Promise) {
+      promise.resolve(Castle.createRequestToken())
     }
 
     @ReactMethod

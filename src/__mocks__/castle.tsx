@@ -12,6 +12,7 @@ NativeModules.Castle = {
   baseUrl: jest.fn(),
   clientId: jest.fn(),
   clientIdHeaderName: jest.fn(),
+  requestTokenHeaderName: jest.fn(),
   userId: jest.fn(),
   userSignature: jest.fn(),
   userAgent: jest.fn(),
