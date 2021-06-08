@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 (2021-06-08)
+- Updated Castle Android SDK to 2.1.0
+- Updated Castle iOS SDK to 2.1.1
+- Added `createRequestToken` and `requestTokenHeaderName` functions
+
 ## 1.0.8 (2021-05-06)
 **Bug fixes:**
 
