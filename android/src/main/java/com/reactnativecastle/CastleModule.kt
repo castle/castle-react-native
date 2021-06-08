@@ -134,7 +134,7 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
 
     @ReactMethod
     fun clientId(promise: Promise) {
-      promise.resolve(Castle.clientId())
+      promise.resolve(Castle.createRequestToken())
     }
 
     @ReactMethod
