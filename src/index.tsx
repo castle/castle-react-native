@@ -30,6 +30,7 @@ type CastleType = {
   baseUrl(): Promise<string>;
   clientId(): Promise<string>;
   clientIdHeaderName(): Promise<string>;
+  createRequestToken(): Promise<string>;
   requestTokenHeaderName(): Promise<string>;
   userId(): Promise<string>;
   userSignature(): Promise<string>;
