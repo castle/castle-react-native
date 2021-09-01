@@ -7,6 +7,7 @@ export default function App() {
   const [clientIdHeaderName, setClientIdHeaderName] = useState<
     string | undefined
   >();
+  const [requestToken, setRequestToken] = useState<string | undefined>();
   const [requestTokenHeaderName, setRequestTokenHeaderName] = useState<
     string | undefined
   >();
@@ -32,6 +33,7 @@ export default function App() {
       await Castle.identify('thisisatestuser1', {});
 
       // Fetch properties
+      Castle.createRequestToken().then(setRequestToken);
       Castle.clientId().then(setClientId);
       Castle.userId().then(setUserId);
       Castle.baseUrl().then(setBaseUrl);
@@ -47,6 +49,7 @@ export default function App() {
     <View style={styles.container}>
       <Text>Client id: {clientId}</Text>
       <Text>Client id header name: {clientIdHeaderName}</Text>
+      <Text>Request token: {requestToken}</Text>
       <Text>Request token header name: {requestTokenHeaderName}</Text>
       <Text>BaseUrl: {baseUrl}</Text>
       <Text>User id: {userId}</Text>
