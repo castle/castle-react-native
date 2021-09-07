@@ -35,7 +35,6 @@ it(
     '944d7d6c5187cafac297785bbf6de0136a2e10f31788e92b2822f5cfd407fa52'
   )
 );
-it('call .versionString()', testCall('versionString'));
 it('call .clientId()', testCall('clientId'));
 it('call .clientIdHeaderName()', testCall('clientIdHeaderName'));
 it('call .requestTokenHeaderName()', testCall('requestTokenHeaderName'));
