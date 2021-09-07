@@ -22,11 +22,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
-    fun versionString(promise: Promise) {
-      promise.resolve(BuildConfig.VERSION_NAME)
-    }
-
-    @ReactMethod
     fun configure(options: ReadableMap?, promise: Promise) {
       if (options != null) {
         val builder = CastleConfiguration.Builder()
