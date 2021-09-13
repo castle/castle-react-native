@@ -35,6 +35,26 @@ yarn add @castleio/react-native-castle
 npm install --save @castleio/react-native-castle
 ```
 
+### Linking Native Code on iOS
+Run `pod install` in the `ios` directory in order to link to the native iOS project. A shortcut for doing this without switching directories is to run
+
+```bash
+npx pod-install
+```
+
+Once completed, re-build the app binary and start using the library
+
+```bash
+npx react-native run-ios
+```
+
+### Liking Native Code on Android
+In order to start using the library you'll need to re-build the app binary
+
+```bash
+npx react-native run-android
+```
+
 ## Usage
 
 Please see the [Mobile Integration Guide](https://docs.castle.io).
