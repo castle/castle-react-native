@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.1.1 (2021-09-14)
+**Enhancements**
+
+- Updated Castle Android SDK to 2.1.2
+- Updated Castle iOS SDK to 2.1.2
+
+**Bug fixes:**
+
+- [#37](https://github.com/castle/castle-react-native/pull/37) Update README with missing installton step
+- [#36](https://github.com/castle/castle-react-native/pull/36) Remove versionString function
+- [#34](https://github.com/castle/castle-react-native/pull/34) Add missing request token
+
+
 ## 1.1.0 (2021-06-08)
 - Updated Castle Android SDK to 2.1.0
 - Updated Castle iOS SDK to 2.1.1
