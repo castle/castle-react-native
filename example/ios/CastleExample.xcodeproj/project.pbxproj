@@ -262,8 +262,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CastleExample/Pods-CastleExample-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Highwind/Highwind.framework/Highwind",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GeoZip/GeoZip.framework/GeoZip",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Castle/Highwind.framework/Highwind",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/Castle/GeoZip.framework/GeoZip",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
