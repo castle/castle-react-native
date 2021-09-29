@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.2 (2021-09-29)
+**Enhancements**
+
+- [#40](https://github.com/castle/castle-react-native/pull/40) Update Kotlin 1.5.10
+
 ## 1.1.1 (2021-09-14)
 **Enhancements**
 
