@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.3 (2022-03-03)
+## 1.1.4 (2022-03-03)
 **Enhancements**
 
 - Updated Castle Android SDK to 2.1.4
