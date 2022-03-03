@@ -1,7 +1,7 @@
 {
   "name": "react-native-castle-example",
   "description": "Example app for react-native-castle",
-  "version": "0.0.1",
+  "version": "1.1.4",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
