@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.3 (2022-03-03)
+**Enhancements**
+
+- Updated Castle Android SDK to 2.1.4
+- Updated Castle iOS SDK to 2.1.7
+
 ## 1.1.3 (2022-02-10)
 **Enhancements**
 
