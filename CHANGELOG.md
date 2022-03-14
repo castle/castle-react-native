@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.5 (2022-03-14)
+**Fixes**
+
+- Updated Castle iOS SDK to 2.1.8. (*Updated internal library because of an issue with the vendored framework included in the 2.1.7 release.*)
+
 ## 1.1.4 (2022-03-03)
 **Enhancements**
 
