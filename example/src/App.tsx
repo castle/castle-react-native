@@ -49,13 +49,13 @@ export default function App() {
       <Button
         title="Track custom event"
         onPress={async () => {
-          await Castle.custom('Example screen');
+          await Castle.custom('Custom event');
         }}
       />
       <Button
         title="Track custom event with properties"
         onPress={async () => {
-          await Castle.customWithProperties('Example screen', {
+          await Castle.customWithProperties('Custom event with properties', {
             someKey: 'value',
           });
         }}
