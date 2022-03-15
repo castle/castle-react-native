@@ -6,7 +6,7 @@ it('exports an instance of Castle', () => {
   expect(typeof Castle).toEqual('object');
 });
 
-const publishableKey = 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ';
+const publishableKey = 'pk_CTsfAeRTqxGgA7HHxqpEESvjfPp4QAKA';
 
 beforeEach(async () => {
   await Castle.configure({
@@ -27,20 +27,15 @@ const testCall = (name: string, ...args: any[]) => {
 
 it('call .reset()', testCall('reset'));
 it('call .flush()', testCall('flush'));
-it('call .identify()', testCall('identify', 'thisisatestuser'));
 it(
-  'call .secure()',
+  'call .userJwt()',
   testCall(
-    'secure',
-    '944d7d6c5187cafac297785bbf6de0136a2e10f31788e92b2822f5cfd407fa52'
+    'userJwt',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
   )
 );
-it('call .clientId()', testCall('clientId'));
-it('call .clientIdHeaderName()', testCall('clientIdHeaderName'));
 it('call .requestTokenHeaderName()', testCall('requestTokenHeaderName'));
-it('call .userId()', testCall('userId'));
 it('call .queueSize()', testCall('queueSize'));
-it('call .userSignature()', testCall('userSignature'));
 it('call .userAgent()', testCall('userAgent'));
 it(
   'call .configureWithPublishableKey()',
