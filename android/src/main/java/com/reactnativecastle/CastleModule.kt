@@ -17,11 +17,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
-    fun clientIdHeaderName(promise: Promise) {
-      promise.resolve(Castle.clientIdHeaderName)
-    }
-
-    @ReactMethod
     fun configure(options: ReadableMap?, promise: Promise) {
       if (options != null) {
         val builder = CastleConfiguration.Builder()
@@ -35,15 +30,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
         }
         if (options.hasKey("flushLimit")) {
             builder.flushLimit(options.getInt("flushLimit"))
-        }
-        if (options.hasKey("useCloudflareApp")) {
-            builder.useCloudflareApp(options.getBoolean("useCloudflareApp"))
-        }
-        if (options.hasKey("apiDomain")) {
-            builder.apiDomain(options.getString("apiDomain"))
-        }
-        if (options.hasKey("apiPath")) {
-            builder.apiPath(options.getString("apiPath"))
         }
         if (options.hasKey("baseURLAllowList")) {
             val array = options.getArray("baseURLAllowList")
@@ -77,28 +63,23 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
-    fun identify(identifier: String, traits: ReadableMap) {
-      var traitsMap = mutableMapOf<String, String>()
-      val itr = traits.keySetIterator()
-      while (itr.hasNextKey()) {
-        val key = itr.nextKey()
-        if (traits.getType(key) == ReadableType.String) {
-          val value = traits.getString(key)
-          value?.let { traitsMap.put(key, it) }
-        }
-      }
-
-      Castle.identify(identifier, traitsMap)
+    fun userJwt(userJwt: String) {
+      Castle.userJwt(userJwt)
     }
 
     @ReactMethod
-    fun secure(signature: String) {
-      Castle.secure(signature)
+    fun custom(name: String) {
+      Castle.custom(signature)
     }
 
     @ReactMethod
-    fun screen(screenName: String) {
-      Castle.screen(screenName)
+    fun custom(name: String, properties: ReadableMap) {
+      Castle.custom(signature, properties)
+    }
+
+    @ReactMethod
+    fun screen(name: String) {
+      Castle.screen(name)
     }
 
     @ReactMethod
@@ -119,7 +100,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     @ReactMethod
     fun isWhitelistUrl(url: String, promise: Promise) {
       promise.resolve(true)
-
     }
 
     @ReactMethod
@@ -128,23 +108,13 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
-    fun clientId(promise: Promise) {
-      promise.resolve(Castle.createRequestToken())
-    }
-
-    @ReactMethod
     fun createRequestToken(promise: Promise) {
       promise.resolve(Castle.createRequestToken())
     }
 
     @ReactMethod
-    fun userId(promise: Promise) {
-      promise.resolve(Castle.userId())
-    }
-
-    @ReactMethod
-    fun userSignature(promise: Promise) {
-      promise.resolve(Castle.userSignature())
+    fun userJwt(promise: Promise) {
+      promise.resolve(Castle.userJwt())
     }
 
     @ReactMethod

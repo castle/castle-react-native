@@ -12,16 +12,6 @@ RCT_EXPORT_MODULE()
 }
 
 /**
- Get client id header name
- */
-RCT_EXPORT_METHOD(clientIdHeaderName
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    resolver(CastleClientIdHeaderName);
-}
-
-/**
  Get request token header name
  */
 RCT_EXPORT_METHOD(requestTokenHeaderName
@@ -58,18 +48,6 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     
     if (options[@"flushLimit"]) {
         configuration.flushLimit = [options[@"flushLimit"] integerValue];
-    }
-    
-    if (options[@"useCloudflareApp"]) {
-        configuration.useCloudflareApp = [options[@"useCloudflareApp"] boolValue];
-    }
-    
-    if (options[@"apiDomain"]) {
-        configuration.apiDomain = [options[@"apiDomain"] stringValue];
-    }
-    
-    if (options[@"apiPath"]) {
-        configuration.apiPath = [options[@"apiPath"] stringValue];
     }
     
     if (options[@"baseURLAllowList"]) {
@@ -116,26 +94,34 @@ RCT_EXPORT_METHOD(resetConfiguration
 #pragma mark - Tracking
 
 /**
- Track identify event with specified user identity. User identity will be persisted. A call to identify or reset will clear the stored user identity.
- Provided user traits will be included in the identify event sent to the Castle API.
+ Set user jwt, will be persisted. A call to userJwt or reset will clear the stored user identity.
  
- @param identifier user id
- @param traits user traits
+ @param userJwt user jwt
  */
-RCT_EXPORT_METHOD(identify:(NSString *)identifier traits:(NSDictionary *)traits)
+RCT_EXPORT_METHOD(userJwt:(NSString *)userJwt)
 {
-    [Castle identify:identifier traits:traits];
+    [Castle setUserJwt:userJwt];
 }
 
 /**
- Set user signature and enable secure mode. User signature will be included in all events after it has been set and will be persisted.
- A stored user signature will be removed when the user signature or reset methods are called.
+ Track custom event with a specified name
  
- @param signature User signature (SHA-256 HMAC in hex format)
+ @param name Event name
  */
-RCT_EXPORT_METHOD(secure:(NSString *)signature)
+RCT_EXPORT_METHOD(custom:(NSString *)name)
 {
-    [Castle secure:signature];
+    [Castle customWithName:name];
+}
+
+/**
+ Track custom event with a specified name and properties
+ 
+ @param name Event name
+ @param properties Properties
+ */
+RCT_EXPORT_METHOD(customWithProperties:(NSString *)name properties:(NSDictionary *)properties)
+{
+    [Castle customWithName:name properties:properties];
 }
 
 /**
@@ -145,7 +131,7 @@ RCT_EXPORT_METHOD(secure:(NSString *)signature)
  */
 RCT_EXPORT_METHOD(screen:(NSString *)screenName)
 {
-    [Castle screen:screenName];
+    [Castle screenWithName:screenName];
 }
 
 /**
@@ -190,19 +176,6 @@ RCT_EXPORT_METHOD(baseUrl
 #pragma mark - Metadata
 
 /**
- Get client id
-
- @return request token
- */
-RCT_EXPORT_METHOD(clientId
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSString *clientId = [Castle createRequestToken];
-    return resolver(clientId);
-}
-
-/**
  Create request token
  
  @return request token
@@ -211,34 +184,8 @@ RCT_EXPORT_METHOD(createRequestToken
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    NSString *clientId = [Castle createRequestToken];
-    return resolver(clientId);
-}
-
-/**
- Get stored user id from last identify call, returns nil if not set
- 
- @return User Id
- */
-RCT_EXPORT_METHOD(userId
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSString *userId = [Castle userId];
-    return resolver(userId);
-}
-
-/**
- Get stored signature from secure call, returns nil if not set
- 
- @return Signature
- */
-RCT_EXPORT_METHOD(userSignature
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSString *userSignature = [Castle userSignature];
-    return resolver(userSignature);
+    NSString *token = [Castle createRequestToken];
+    return resolver(token);
 }
 
 /**

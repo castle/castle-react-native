@@ -3,57 +3,41 @@ import { StyleSheet, View, Text, Button, Alert } from 'react-native';
 import Castle from '@castleio/react-native-castle';
 
 export default function App() {
-  const [clientId, setClientId] = useState<string | undefined>();
-  const [clientIdHeaderName, setClientIdHeaderName] = useState<
-    string | undefined
-  >();
   const [requestToken, setRequestToken] = useState<string | undefined>();
   const [requestTokenHeaderName, setRequestTokenHeaderName] = useState<
     string | undefined
   >();
-  const [userId, setUserId] = useState<string | undefined>();
   const [baseUrl, setBaseUrl] = useState<string | undefined>();
   const [queueSize, setQueueSize] = useState<number | undefined>();
-  const [userSignature, setUserSignature] = useState<string | undefined>();
   const [userAgent, setUserAgent] = useState<string | undefined>();
 
   useEffect(() => {
     Castle.configure({
-      publishableKey: 'pk_SE5aTeotKZpDEn8kurzBYquRZyy21fvZ',
+      publishableKey: 'pk_CTsfAeRTqxGgA7HHxqpEESvjfPp4QAKA',
       debugLoggingEnabled: true,
       maxQueueLimit: 1000,
       flushLimit: 20,
       useCloudflareApp: false,
       baseURLAllowList: ['google.com', 'docs.castle.io'],
     }).then(async () => {
-      // Setters
-      await Castle.secure(
-        '944d7d6c5187cafac297785bbf6de0136a2e10f31788e92b2822f5cfd407fa52'
+      await Castle.userJwt(
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
       );
-      await Castle.identify('thisisatestuser1', {});
 
       // Fetch properties
       Castle.createRequestToken().then(setRequestToken);
-      Castle.clientId().then(setClientId);
-      Castle.userId().then(setUserId);
       Castle.baseUrl().then(setBaseUrl);
       Castle.queueSize().then(setQueueSize);
-      Castle.userSignature().then(setUserSignature);
       Castle.userAgent().then(setUserAgent);
-      Castle.clientIdHeaderName().then(setClientIdHeaderName);
       Castle.requestTokenHeaderName().then(setRequestTokenHeaderName);
     });
   }, []);
 
   return (
     <View style={styles.container}>
-      <Text>Client id: {clientId}</Text>
-      <Text>Client id header name: {clientIdHeaderName}</Text>
       <Text>Request token: {requestToken}</Text>
       <Text>Request token header name: {requestTokenHeaderName}</Text>
       <Text>BaseUrl: {baseUrl}</Text>
-      <Text>User id: {userId}</Text>
-      <Text>User signature: {userSignature}</Text>
       <Text>Queue size: {queueSize}</Text>
       <Text>User Agent: {userAgent}</Text>
       <Button
@@ -63,9 +47,25 @@ export default function App() {
         }}
       />
       <Button
-        title="Identify"
+        title="Track custom event"
         onPress={async () => {
-          await Castle.identify('thisisatestuser', {});
+          await Castle.custom('Example screen');
+        }}
+      />
+      <Button
+        title="Track custom event with properties"
+        onPress={async () => {
+          await Castle.customWithProperties('Example screen', {
+            someKey: 'value',
+          });
+        }}
+      />
+      <Button
+        title="Set user jwt"
+        onPress={async () => {
+          await Castle.userJwt(
+            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
+          );
         }}
       />
       <Button
