@@ -69,12 +69,12 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
 
     @ReactMethod
     fun custom(name: String) {
-      Castle.custom(signature)
+      Castle.custom(name)
     }
 
     @ReactMethod
-    fun custom(name: String, properties: ReadableMap) {
-      Castle.custom(signature, properties)
+    fun customWithProperties(name: String, properties: ReadableMap) {
+      Castle.custom(name, properties.toHashMap())
     }
 
     @ReactMethod
@@ -95,11 +95,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     @ReactMethod
     fun reset() {
       Castle.reset()
-    }
-
-    @ReactMethod
-    fun isWhitelistUrl(url: String, promise: Promise) {
-      promise.resolve(true)
     }
 
     @ReactMethod
