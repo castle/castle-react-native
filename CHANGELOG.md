@@ -4,9 +4,9 @@
 **Enhancements**
 
 - Add support for enhanced user activity monitoring.
-	- Introduced custom(name:) method
-	- Introduced custom(name:properties:) method
-	- Introduced screen(name:) method
+	- Introduced custom() method
+	- Introduced customWithProperties() method
+	- Introduced screen() method
 	- Introduced userJwt() method
 - Remove deprecated methods.
 	- Removed identify()
@@ -16,7 +16,7 @@
 	- Removed userSignature
 	- Removed track()
 	- Removed useCloudflareApp()
-	- Removed field CastleClientIdHeaderName = "X-Castle-Client-Id";
+	- Removed Castle.clientIdHeaderName()
 
 ## 1.1.5 (2022-03-14)
 **Fixes**
