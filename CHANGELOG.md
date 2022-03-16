@@ -1,5 +1,23 @@
 # Changelog
 
+## 2.0.0 (2022-03-16)
+**Enhancements**
+
+- Add support for enhanced user activity monitoring.
+	- Introduced custom() method
+	- Introduced customWithProperties() method
+	- Introduced screen() method
+	- Introduced userJwt() method
+- Remove deprecated methods.
+	- Removed identify()
+	- Removed userId()
+	- Removed secure()
+	- Removed secureModeEnabled()
+	- Removed userSignature
+	- Removed track()
+	- Removed useCloudflareApp()
+	- Removed Castle.clientIdHeaderName()
+
 ## 1.1.5 (2022-03-14)
 **Fixes**
 
