@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.5 (2022-06-23)
+**Enhancements**
+
+- Updated dependencies
+
 ## 2.0.4 (2022-05-11)
 **Enhancements**
 

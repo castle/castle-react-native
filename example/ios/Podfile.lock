@@ -183,7 +183,7 @@ PODS:
     - React-cxxreact (= 0.61.0)
     - React-jsi (= 0.61.0)
   - React-jsinspector (0.61.0)
-  - react-native-castle (2.0.3):
+  - react-native-castle (2.0.5):
     - Castle (= 3.0.5)
     - React-Core
   - React-RCTActionSheet (0.61.0):
@@ -330,7 +330,7 @@ SPEC CHECKSUMS:
   React-jsi: 4b5e521350c455b5eb4be50ea98c02de25b44fad
   React-jsiexecutor: 5532ab4389aabbbf1b87904de04c8ddd7dda7036
   React-jsinspector: 99b82aeb51d67d9025ab4eb8ccb8132f8dcebf69
-  react-native-castle: e26566b60bcd31889033d06401842bdfa9dd5a8f
+  react-native-castle: 0871b24ccee996b8a7fceccff8f8c9e55cfa1bdb
   React-RCTActionSheet: 5f9a1733ec8e380aae8a97877f1166cb058733ae
   React-RCTAnimation: 3e0a55305b70b1eb5a5e34230ed8198d4a782da9
   React-RCTBlob: a6ff2220ed7ef4b06e559ec61a0b0f4e80a3716a
