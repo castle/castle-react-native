@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.7 (2022-08-09)
+**Enhancements**
+
+- Updated Castle iOS SDK to 3.0.7
+- Updated Castle Android SDK to 3.0.5
+- [#66](https://github.com/castle/castle-react-native/pull/66) Bump parse-url from 6.0.0 to 6.0.2
+
 ## 2.0.6 (2022-06-30)
 **Enhancements**
 
