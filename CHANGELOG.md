@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.8 (2022-09-19)
+**Enhancements**
+
+- Updated Castle Android SDK to 3.0.6
+
 ## 2.0.7 (2022-08-09)
 **Enhancements**
 
