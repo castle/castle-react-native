@@ -1,4 +1,4 @@
-package com.castleexample.newarchitecture.components;
+package com.example.reactnativecastle.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

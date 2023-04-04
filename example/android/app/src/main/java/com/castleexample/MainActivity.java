@@ -1,4 +1,4 @@
-package com.castleexample;
+package com.example.reactnativecastle;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

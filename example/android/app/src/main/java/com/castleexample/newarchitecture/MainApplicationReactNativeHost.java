@@ -1,4 +1,4 @@
-package com.castleexample.newarchitecture;
+package com.example.reactnativecastle.newarchitecture;
 
 import android.app.Application;
 import androidx.annotation.NonNull;
@@ -19,9 +19,9 @@ import com.facebook.react.fabric.CoreComponentsRegistry;
 import com.facebook.react.fabric.FabricJSIModuleProvider;
 import com.facebook.react.fabric.ReactNativeConfig;
 import com.facebook.react.uimanager.ViewManagerRegistry;
-import com.castleexample.BuildConfig;
-import com.castleexample.newarchitecture.components.MainComponentsRegistry;
-import com.castleexample.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
+import com.example.reactnativecastle.BuildConfig;
+import com.example.reactnativecastle.newarchitecture.components.MainComponentsRegistry;
+import com.example.reactnativecastle.newarchitecture.modules.MainApplicationTurboModuleManagerDelegate;
 import java.util.ArrayList;
 import java.util.List;
 

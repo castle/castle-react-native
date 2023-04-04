@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="com.castleexample">
+  package="com.example.reactnativecastle">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
