@@ -155,6 +155,9 @@
   },
   "dependencies": {
     "codecov": "^3.8.1",
-    "hermes-engine": "0.11.0"
+    "hermes-engine": "0.10.0"
+  },
+  "resolutions": {
+    "hermes-engine": "0.10.0" 
   }
 }
