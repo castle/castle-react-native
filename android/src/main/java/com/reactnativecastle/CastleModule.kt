@@ -36,7 +36,7 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
             array?.let {
               val baseURLAllowList = mutableListOf<String>()
               for (i in 0 until array.size()) {
-                array.getString(i)?.let {
+                array.getString(i).let {
                   s -> baseURLAllowList.add(s)
                 }
               }
