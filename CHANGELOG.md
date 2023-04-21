@@ -1,6 +1,11 @@
 # Changelog
 
-## 2.09 (2022-10-07)
+## 2.0.10 (2023-04-21)
+
+- Upgraded to React Native 0.70.
+- Updated dependencies
+
+## 2.0.9 (2022-10-07)
 **Enhancements**
 
 - Updated Castle Android SDK to 3.0.7
