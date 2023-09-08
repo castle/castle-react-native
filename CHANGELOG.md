@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.11 (2023-09-08)
+
+- Updated dependencies
+
 ## 2.0.10 (2023-04-21)
 
 - Upgraded to React Native 0.70.
