@@ -30,6 +30,9 @@ export default function App() {
       Castle.queueSize().then(setQueueSize);
       Castle.userAgent().then(setUserAgent);
       Castle.requestTokenHeaderName().then(setRequestTokenHeaderName);
+
+      // Set mock IDFA
+      Castle.setAdvertisingIdentifier('00000000-0000-0000-0000-000000000001');
     });
   }, []);
 

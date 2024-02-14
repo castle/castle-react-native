@@ -9,6 +9,7 @@ NativeModules.Castle = {
   customWithProperties: jest.fn(),
   flush: jest.fn(),
   flushIfNeeded: jest.fn(),
+  setAdvertisingIdentifier: jest.fn(),
   reset: jest.fn(),
   baseUrl: jest.fn(),
   createRequestToken: jest.fn(),
