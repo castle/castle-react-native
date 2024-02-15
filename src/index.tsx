@@ -29,6 +29,7 @@ type CastleType = {
   flushIfNeeded(url: string): Promise<boolean>;
   reset(): Promise<void>;
   baseUrl(): Promise<string>;
+  setAdvertisingIdentifier(identifier: string): Promise<void>;
   createRequestToken(): Promise<string>;
   requestTokenHeaderName(): Promise<string>;
   userAgent(): Promise<string>;

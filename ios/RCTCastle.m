@@ -2,6 +2,10 @@
 
 #import <Castle/Castle.h>
 
+@interface RCTCastle ()
+@property (nonatomic, copy) NSString *idfa;
+@end
+
 @implementation RCTCastle
 
 RCT_EXPORT_MODULE()
@@ -37,6 +41,9 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
     configuration.screenTrackingEnabled = NO;
     configuration.deviceIDAutoForwardingEnabled = YES;
+    [configuration setAdSupportBlock:^NSString* {
+        return self.idfa;
+    }];
     
     if (options[@"debugLoggingEnabled"]) {
         configuration.debugLoggingEnabled = [options[@"debugLoggingEnabled"] boolValue];
@@ -171,6 +178,16 @@ RCT_EXPORT_METHOD(baseUrl
 {
     NSURL *baseUrl = [Castle baseURL];
     return resolver(baseUrl.absoluteString);
+}
+
+/**
+ Set advertising identifier (IDFA)
+ 
+ @param baseUrl Base URL
+ */
+RCT_EXPORT_METHOD(setAdvertisingIdentifier:(NSString *)identifier)
+{
+    self.idfa = identifier;
 }
 
 #pragma mark - Metadata
