@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.12 (2024-03-18)
+
+- Update Castle iOS SDK to 3.0.9
+- Add support for providing IDFA on iOS
+- Updated dependencies
+
 ## 2.0.11 (2023-09-08)
 
 - Updated dependencies
