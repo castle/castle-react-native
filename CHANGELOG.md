@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.13 (2024-09-17)
+
+- Update Castle iOS SDK to 3.0.13
+- Updated dependencies
+
 ## 2.0.12 (2024-03-18)
 
 - Update Castle iOS SDK to 3.0.9
