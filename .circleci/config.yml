@@ -20,25 +20,27 @@ jobs:
       - attach_project
       - restore_cache:
           keys:
-            - dependencies-{{ checksum "package.json" }}
-            - dependencies-
+            - yarn-packages-{{ checksum "yarn.lock" }}
+            - yarn-packages-
       - restore_cache:
           keys:
-            - dependencies-example-{{ checksum "example/package.json" }}
-            - dependencies-example-
+            - yarn-packages-example{{ checksum "example/yarn.lock" }}
+            - yarn-packages-example-
       - run:
           name: Install dependencies
           command: |
             yarn install --cwd example --frozen-lockfile
             yarn install --frozen-lockfile
       - save_cache:
-          key: dependencies-{{ checksum "package.json" }}
+          key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - node_modules
+            - ~/.cache/yarn
       - save_cache:
-          key: dependencies-example-{{ checksum "example/package.json" }}
+          key: yarn-packages-example{{ checksum "example/yarn.lock" }}
           paths:
             - example/node_modules
+            - ~/.cache/yarn
       - persist_to_workspace:
           root: .
           paths:
