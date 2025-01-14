@@ -63,3 +63,7 @@ lib/
 coverage/
 android/.settings
 example/android/.settings
+
+# yarn
+.yarn/
+.yarnrc.yml
