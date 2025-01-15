@@ -5,4 +5,8 @@ module.exports = {
     '<rootDir>/src/__tests__/**/*.test.ts',
     '<rootDir>/src/__tests__/**/*.test.tsx',
   ],
+  modulePathIgnorePatterns: [
+    '<rootDir>/example/node_modules',
+    '<rootDir>/lib/',
+  ],
 };
