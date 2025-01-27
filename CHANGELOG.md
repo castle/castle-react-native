@@ -1,8 +1,17 @@
 # Changelog
 
-## 2.0.13 (2024-09-17)
+## 2.1.0 (2025-01-27)
+
+- Upgrade to use React Native 0.75 for SDK and example app
+- Updated dependencies
+
+## 2.0.14 (2024-09-17)
 
 - Update Castle iOS SDK to 3.0.13
+
+## 2.0.13 (2024-04-05)
+
+- Update Castle iOS SDK to 3.0.10
 - Updated dependencies
 
 ## 2.0.12 (2024-03-18)
