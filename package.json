@@ -1,6 +1,6 @@
 {
   "name": "@castleio/react-native-castle",
-  "version": "2.0.14",
+  "version": "2.1.0",
   "description": "Castle SDK for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
