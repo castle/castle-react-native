@@ -63,6 +63,11 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
+    fun userJwt(userJwt: String) {
+      Castle.userJwt(userJwt)
+    }
+
+    @ReactMethod
     fun custom(name: String) {
       Castle.custom(name)
     }
@@ -105,11 +110,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     @ReactMethod
     fun setAdvertisingIdentifier(idfa: String) {
       // Do nothing, setting IDFA is not applicable on Android
-    }
-
-    @ReactMethod
-    fun userJwt(promise: Promise) {
-      promise.resolve(Castle.userJwt())
     }
 
     @ReactMethod
