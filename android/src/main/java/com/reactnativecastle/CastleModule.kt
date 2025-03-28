@@ -63,11 +63,6 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
     }
 
     @ReactMethod
-    fun userJwt(userJwt: String) {
-      Castle.userJwt(userJwt)
-    }
-
-    @ReactMethod
     fun custom(name: String) {
       Castle.custom(name)
     }
