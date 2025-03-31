@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.1 (2025-03-31)
+
+- [#131](https://github.com/castle/castle-react-native/pull/131) Remove duplicate userJwt method on android
+- [#127](https://github.com/castle/castle-react-native/pull/127) Revert: remove uneccesary safe call
+- Updated dependencies
+
 ## 2.1.0 (2025-01-27)
 
 - Upgrade to use React Native 0.75 for SDK and example app
