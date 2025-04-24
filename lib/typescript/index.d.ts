@@ -7,6 +7,7 @@ export interface Configuration {
     apiDomain?: string;
     apiPath?: string;
     baseURLAllowList?: string[];
+    lifeCycleEventsEnabled?: boolean;
 }
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
 export interface JsonMap {

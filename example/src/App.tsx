@@ -15,6 +15,7 @@ export default function App() {
     Castle.configure({
       publishableKey: 'pk_CTsfAeRTqxGgA7HHxqpEESvjfPp4QAKA',
       debugLoggingEnabled: true,
+      lifeCycleEventsEnabled: true,
       maxQueueLimit: 1000,
       flushLimit: 20,
       useCloudflareApp: false,
