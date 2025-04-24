@@ -9,16 +9,19 @@
     "start": "react-native start"
   },
   "dependencies": {
-    "@react-native/metro-config": "^0.76.6",
-    "react": "18.3.1",
-    "react-native": "^0.75.0"
+    "@react-native/metro-config": "^0.76.9",
+    "react": "^18.3.1",
+    "react-native": "^0.76.9"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.1.6",
     "@babel/runtime": "^7.26.10",
-    "babel-plugin-module-resolver": "^5.0.0",
-    "metro-react-native-babel-preset": "^0.67.0"
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "^0.76.9",
+    "babel-plugin-module-resolver": "^5.0.0"
   },
   "engines": {
     "node": ">=18"

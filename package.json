@@ -50,7 +50,7 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
-    "@react-native-community/eslint-config": "^3.2.0",
+    "@react-native/eslint-config": "^0.76.9",
     "@release-it/conventional-changelog": "^10.0.0",
     "@types/jest": "^26.0.0",
     "@types/react": "^18.2.6",
@@ -61,11 +61,11 @@
     "eslint-plugin-prettier": "^3.4.1",
     "husky": "^4.2.5",
     "jest": "^29.6.3",
-    "metro-react-native-babel-preset": "^0.67.0",
+    "@react-native/babel-preset": "^0.76.9",
     "pod-install": "^0.1.0",
     "prettier": "^2.8.0",
     "react": "^18.3.1",
-    "react-native": "^0.75.0",
+    "react-native": "^0.76.9",
     "react-native-builder-bob": "^0.35.2",
     "release-it": "^18.1.2",
     "typescript": "^5.0.4"
@@ -105,9 +105,10 @@
   "eslintConfig": {
     "root": true,
     "extends": [
-      "@react-native-community",
+      "@react-native",
       "prettier"
     ],
+    "plugins": ["prettier"],
     "rules": {
       "prettier/prettier": [
         "error",
