@@ -10,14 +10,14 @@
 ## Requirements
 
 ### React Native
- - React Native 0.61+
+ - React Native 0.76.9+
 
 ### iOS
- - iOS 9.0+
- - Xcode 8.2+
+ - iOS 15.1+
+ - Xcode 16.3+
 
 ### Android
- - Android 5.0
+ - Android 7.0
 
 ## Installation
 
