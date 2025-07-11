@@ -43,6 +43,9 @@ class CastleModule(reactContext: ReactApplicationContext) : ReactContextBaseJava
               builder.baseURLAllowList(baseURLAllowList)
             }
         }
+        if (options.hasKey("lifeCycleEventsEnabled")) {
+            builder.applicationLifecycleTrackingEnabled(options.getBoolean("lifeCycleEventsEnabled"))
+        }
 
         Castle.configure(reactApplicationContext.applicationContext as Application, builder.build())
 

@@ -12,6 +12,7 @@ beforeEach(async () => {
   await Castle.configure({
     publishableKey,
     debugLoggingEnabled: true,
+    lifeCycleEventsEnabled: true,
     maxQueueLimit: 1000,
     flushLimit: 20,
     useCloudflareApp: false,
