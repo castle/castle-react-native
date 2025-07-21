@@ -29,7 +29,7 @@ RCT_EXPORT_METHOD(requestTokenHeaderName
 
 /**
  Configure Castle using the provided configuration
- 
+
  @param configuration CastleConfiguration instance
  */
 RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
@@ -44,31 +44,35 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     [configuration setAdSupportBlock:^NSString* {
         return self.idfa;
     }];
-    
+
     if (options[@"debugLoggingEnabled"]) {
         configuration.debugLoggingEnabled = [options[@"debugLoggingEnabled"] boolValue];
     }
-    
+
     if (options[@"maxQueueLimit"]) {
         configuration.maxQueueLimit = [options[@"maxQueueLimit"] integerValue];
     }
-    
+
     if (options[@"flushLimit"]) {
         configuration.flushLimit = [options[@"flushLimit"] integerValue];
     }
-    
+
     if (options[@"baseURLAllowList"]) {
         configuration.baseURLAllowList = options[@"baseURLAllowList"];
     }
-    
+
+    if (options[@"lifeCycleEventsEnabled"]) {
+        configuration.applicationLifecycleTrackingEnabled = options[@"lifeCycleEventsEnabled"];
+    }
+
     [Castle configure:configuration];
-    
+
     return resolver(nil);
 }
 
 /**
  Configure Castle with default configuration using publishable key
- 
+
  @param publishableKey Castle publishable key
  */
 RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
@@ -80,9 +84,9 @@ RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:publishableKey];
     configuration.screenTrackingEnabled = NO;
     configuration.deviceIDAutoForwardingEnabled = NO;
-    
+
     [Castle configureWithPublishableKey:publishableKey];
-    
+
     return resolver(nil);
 }
 
@@ -102,7 +106,7 @@ RCT_EXPORT_METHOD(resetConfiguration
 
 /**
  Set user jwt, will be persisted. A call to userJwt or reset will clear the stored user identity.
- 
+
  @param userJwt user jwt
  */
 RCT_EXPORT_METHOD(userJwt:(NSString *)userJwt)
@@ -112,7 +116,7 @@ RCT_EXPORT_METHOD(userJwt:(NSString *)userJwt)
 
 /**
  Track custom event with a specified name
- 
+
  @param name Event name
  */
 RCT_EXPORT_METHOD(custom:(NSString *)name)
@@ -122,7 +126,7 @@ RCT_EXPORT_METHOD(custom:(NSString *)name)
 
 /**
  Track custom event with a specified name and properties
- 
+
  @param name Event name
  @param properties Properties
  */
@@ -133,7 +137,7 @@ RCT_EXPORT_METHOD(customWithProperties:(NSString *)name properties:(NSDictionary
 
 /**
  Track screen event with a specified name
- 
+
  @param screenName Screen name
  */
 RCT_EXPORT_METHOD(screen:(NSString *)screenName)
@@ -151,7 +155,7 @@ RCT_EXPORT_METHOD(flush)
 
 /**
  Force a flush if needed for a specific url, flushes if url is whitelisted
- 
+
  @param url Whitelist url
  */
 RCT_EXPORT_METHOD(flushIfNeeded:(NSURL *)url)
@@ -169,7 +173,7 @@ RCT_EXPORT_METHOD(reset)
 
 /**
  Get base url
- 
+
  @return return Base URL
  */
 RCT_EXPORT_METHOD(baseUrl
@@ -182,7 +186,7 @@ RCT_EXPORT_METHOD(baseUrl
 
 /**
  Set advertising identifier (IDFA)
- 
+
  @param baseUrl Base URL
  */
 RCT_EXPORT_METHOD(setAdvertisingIdentifier:(NSString *)identifier)
@@ -194,7 +198,7 @@ RCT_EXPORT_METHOD(setAdvertisingIdentifier:(NSString *)identifier)
 
 /**
  Create request token
- 
+
  @return request token
  */
 RCT_EXPORT_METHOD(createRequestToken
@@ -208,7 +212,7 @@ RCT_EXPORT_METHOD(createRequestToken
 /**
  Get the User Agent for used in all requests to the Castle API.
  User agent will have the following format: App Name/x.x (xxxx) (iPhone XR; iOS xx.x; Castle x.x.x)
- 
+
  @return User Agent
  */
 RCT_EXPORT_METHOD(userAgent
@@ -221,7 +225,7 @@ RCT_EXPORT_METHOD(userAgent
 
 /**
  Get the current size of the event queue
- 
+
  @return return The current size of the event queue
  */
 RCT_EXPORT_METHOD(queueSize
