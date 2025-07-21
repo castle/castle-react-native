@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.2.0 (2025-07-21)
+
+- [#136](https://github.com/castle/castle-react-native/pull/136) Add lifecycle events config option.
+- Update Castle iOS SDK to 3.1.0.
+- Update Castle Android SDK to 3.1.0.
+
 ## 2.1.1 (2025-03-31)
 
 - [#131](https://github.com/castle/castle-react-native/pull/131) Remove duplicate userJwt method on android
