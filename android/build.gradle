@@ -27,6 +27,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+  namespace = "com.reactnativecastle"
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
