@@ -10,7 +10,7 @@
 ## Requirements
 
 ### React Native
- - React Native 0.76.9+
+ - React Native 0.77.0+
 
 ### iOS
  - iOS 15.1+

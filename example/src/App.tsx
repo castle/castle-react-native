@@ -1,5 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Text, Button, Alert } from 'react-native';
+import {
+  StyleSheet,
+  Text,
+  Button,
+  Alert,
+  ScrollView,
+  SafeAreaView,
+} from 'react-native';
 import Castle from '@castleio/react-native-castle';
 
 export default function App() {
@@ -38,65 +45,68 @@ export default function App() {
   }, []);
 
   return (
-    <View style={styles.container}>
-      <Text>Request token: {requestToken}</Text>
-      <Text>Request token header name: {requestTokenHeaderName}</Text>
-      <Text>BaseUrl: {baseUrl}</Text>
-      <Text>Queue size: {queueSize}</Text>
-      <Text>User Agent: {userAgent}</Text>
-      <Button
-        title="Track screen view"
-        onPress={async () => {
-          await Castle.screen('Example screen');
-        }}
-      />
-      <Button
-        title="Track custom event"
-        onPress={async () => {
-          await Castle.custom('Custom event');
-        }}
-      />
-      <Button
-        title="Track custom event with properties"
-        onPress={async () => {
-          await Castle.customWithProperties('Custom event with properties', {
-            someKey: 'value',
-          });
-        }}
-      />
-      <Button
-        title="Set user jwt"
-        onPress={async () => {
-          await Castle.userJwt(
-            'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
-          );
-        }}
-      />
-      <Button
-        title="Test request interception"
-        onPress={() => Alert.alert('Request interception pressed')}
-      />
-      <Button
-        title="Flush"
-        onPress={async () => {
-          await Castle.flush();
-        }}
-      />
-      <Button
-        title="Reset"
-        onPress={async () => {
-          await Castle.reset();
-        }}
-      />
-    </View>
+    <SafeAreaView style={styles.safeArea}>
+      <ScrollView contentContainerStyle={styles.container}>
+        <Text>Request token: {requestToken}</Text>
+        <Text>Request token header name: {requestTokenHeaderName}</Text>
+        <Text>BaseUrl: {baseUrl}</Text>
+        <Text>Queue size: {queueSize}</Text>
+        <Text>User Agent: {userAgent}</Text>
+        <Button
+          title="Track screen view"
+          onPress={async () => {
+            await Castle.screen('Example screen');
+          }}
+        />
+        <Button
+          title="Track custom event"
+          onPress={async () => {
+            await Castle.custom('Custom event');
+          }}
+        />
+        <Button
+          title="Track custom event with properties"
+          onPress={async () => {
+            await Castle.customWithProperties('Custom event with properties', {
+              someKey: 'value',
+            });
+          }}
+        />
+        <Button
+          title="Set user jwt"
+          onPress={async () => {
+            await Castle.userJwt(
+              'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
+            );
+          }}
+        />
+        <Button
+          title="Test request interception"
+          onPress={() => Alert.alert('Request interception pressed')}
+        />
+        <Button
+          title="Flush"
+          onPress={async () => {
+            await Castle.flush();
+          }}
+        />
+        <Button
+          title="Reset"
+          onPress={async () => {
+            await Castle.reset();
+          }}
+        />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  safeArea: {
     flex: 1,
+  },
+  container: {
     alignItems: 'center',
-    justifyContent: 'center',
     padding: 20,
   },
   box: {
