@@ -9,14 +9,14 @@ buildscript {
   }
 
   dependencies {
-    classpath 'com.android.tools.build:gradle:7.4.2'
+    classpath 'com.android.tools.build:gradle:8.2.2'
     // noinspection DifferentKotlinGradleVersion
     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
   }
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.android'
 
 def getExtOrDefault(name) {
   return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties['Castle_' + name]
@@ -117,6 +117,17 @@ repositories {
                     "Ensure you have you installed React Native as a dependency in your project and try again."
     )
   }
+}
+
+subprojects {
+    configurations.all {
+        resolutionStrategy.eachDependency {
+            if (requested.group == "org.jetbrains.kotlin") {
+                useVersion("$kotlin_version")
+                because("Align all Kotlin versions to avoid metadata issues")
+            }
+        }
+    }
 }
 
 def kotlin_version = getExtOrDefault('kotlinVersion')
