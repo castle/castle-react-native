@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.1 (2025-09-12)
+
+- Update Castle iOS SDK to 3.1.1.
+
 ## 2.2.0 (2025-07-21)
 
 - [#136](https://github.com/castle/castle-react-native/pull/136) Add lifecycle events config option.
