@@ -1,6 +1,6 @@
 PODS:
   - boost (1.84.0)
-  - Castle (3.1.2)
+  - Castle (3.1.3)
   - DoubleConversion (1.1.6)
   - fast_float (6.1.4)
   - FBLazyVector (0.77.3)
@@ -1211,8 +1211,8 @@ PODS:
     - React-jsiexecutor
     - React-RCTFBReactNativeSpec
     - ReactCommon/turbomodule/core
-  - react-native-castle (2.2.2):
-    - Castle (= 3.1.2)
+  - react-native-castle (2.2.3):
+    - Castle (= 3.1.3)
     - React-Core
   - React-nativeconfig (0.77.3)
   - React-NativeModulesApple (0.77.3):
@@ -1721,7 +1721,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost: 7e761d76ca2ce687f7cc98e698152abd03a18f90
-  Castle: d8faeee423c4863d609b463bf343b30be4db1001
+  Castle: d8a2359213dda7ca45f9e1a3ad72c008a6828c9b
   DoubleConversion: cb417026b2400c8f53ae97020b2be961b59470cb
   fast_float: 06eeec4fe712a76acc9376682e4808b05ce978b6
   FBLazyVector: 23d8c5470c648a635893dc0956c6dbaead54b656
@@ -1757,7 +1757,7 @@ SPEC CHECKSUMS:
   React-logger: a23563f96a622637d7cce687bdf304929104effd
   React-Mapbuffer: 1864935968d15b9b73d8e413d29c780f0ab50038
   React-microtasksnativemodule: 3b784cf40f7c3c9500b9a5f9e4eec5c9bbfbef8f
-  react-native-castle: 72b5f8444579bbdc334544f3e1c543a7c5d1f787
+  react-native-castle: cfc4e87191ce6f8a78a0abb50efaa555bf942a7c
   React-nativeconfig: f77b4627803bf7886a1f2e96b33b8af34e583cc4
   React-NativeModulesApple: dfa86c79c621f2a9cdb39636570c2e1623b71367
   React-perflogger: 1f83401f01544142b32151ef6c66870455c64994
