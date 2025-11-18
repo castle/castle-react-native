@@ -1,9 +1,13 @@
 # Changelog
 
+## 2.2.5 (2025-11-18)
+
+- Update Castle iOS SDK to 3.1.6.
+
 ## 2.2.4 (2025-11-06)
 
 - [#144](https://github.com/castle/castle-react-native/pull/144) Remove jcenter.
-- Update Castle iOS SDK to 3.1.4.
+- Update Castle iOS SDK to 3.1.5.
 
 ## 2.2.3 (2025-10-20)
 
