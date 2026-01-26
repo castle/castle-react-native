@@ -10,6 +10,7 @@ export interface Configuration {
   apiPath?: string;
   baseURLAllowList?: string[];
   lifeCycleEventsEnabled?: boolean;
+  sensorTrackingEnabled?: boolean;
 }
 
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
