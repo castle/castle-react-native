@@ -13,6 +13,7 @@ beforeEach(async () => {
     publishableKey,
     debugLoggingEnabled: true,
     lifeCycleEventsEnabled: true,
+    sensorTrackingEnabled: true,
     maxQueueLimit: 1000,
     flushLimit: 20,
     useCloudflareApp: false,

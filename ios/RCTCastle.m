@@ -62,7 +62,11 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     }
 
     if (options[@"lifeCycleEventsEnabled"]) {
-        configuration.enableApplicationLifecycleTracking = options[@"lifeCycleEventsEnabled"];
+        configuration.enableApplicationLifecycleTracking = [options[@"lifeCycleEventsEnabled"] boolValue];
+    }
+
+    if (options[@"sensorTrackingEnabled"]) {
+        configuration.enableSensorTracking = [options[@"sensorTrackingEnabled"] boolValue];
     }
 
     [Castle configure:configuration];
