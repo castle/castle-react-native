@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.2.8 (2026-01-27)
+
+- [#153](https://github.com/castle/castle-react-native/pull/153) Add configuration option for sensor tracking.
+- Update Castle iOS SDK to 3.1.11.
+
 ## 2.2.7 (2025-12-08)
 
 - Update Castle iOS SDK to 3.1.7.
