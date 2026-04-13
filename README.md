@@ -13,7 +13,7 @@
  - React Native 0.61+
 
 ### iOS
- - iOS 9.0+
+ - iOS 12.0+
  - Xcode 8.2+
 
 ### Android
