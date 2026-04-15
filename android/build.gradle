@@ -46,6 +46,9 @@ android {
     sourceCompatibility JavaVersion.VERSION_1_8
     targetCompatibility JavaVersion.VERSION_1_8
   }
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
 }
 
 repositories {
@@ -125,5 +128,5 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  api 'io.castle.android:castle:3.0.8'
+  api 'io.castle.android:castle:3.0.9'
 }

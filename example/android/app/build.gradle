@@ -37,6 +37,10 @@ android {
             keyPassword 'android'
         }
     }
+    packaging {
+        jniLibs.useLegacyPackaging = false
+    }
+
     buildTypes {
         debug {
             signingConfig signingConfigs.debug
