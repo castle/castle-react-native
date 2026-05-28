@@ -4,6 +4,7 @@
 
 - Update Castle iOS SDK to 3.2.0.
 - Update Castle Android SDK to 3.1.8.
+- Update Android Java compatibility to 17.
 - Updated dependencies.
 
 ## 2.2.8 (2026-01-27)
