@@ -1403,7 +1403,7 @@ PODS:
     - ReactCommon/turbomodule/core
     - ReactNativeDependencies
     - Yoga
-  - react-native-castle (2.2.8):
+  - react-native-castle (2.3.0):
     - Castle (= 3.2.0)
     - React-Core
   - React-NativeModulesApple (0.85.3):
@@ -2069,7 +2069,7 @@ SPEC CHECKSUMS:
   React-Mapbuffer: fec3e025f0ffba6b32cd2a1d7bbdee3e269aae90
   React-microtasksnativemodule: ab33a818d339f5a1da308893c11b487be66121a8
   React-mutationobservernativemodule: a42d1626651ccd7d0dc02a56e69d4ec77c248893
-  react-native-castle: ecea2588c0806bdebdc18bdc995bcfa42a750490
+  react-native-castle: 6eaa29898f25ba24b25ffee31ec1a3a539279944
   React-NativeModulesApple: deba264b03bd79c6bd61014fa30e40321b5e443a
   React-networking: 35e6070b084f435429f85c5db40b4d5b38652fe9
   React-oscompat: 64a0c7ef5441855dc6e2a6afe8ba8f92aa05075e
