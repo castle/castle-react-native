@@ -30,8 +30,7 @@
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods",
-    "coverage": "jest --coverage",
-    "codecov": "./node_modules/.bin/codecov -f coverage/coverage-final.json"
+    "coverage": "jest --coverage"
   },
   "keywords": [
     "react-native",
@@ -50,8 +49,9 @@
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^11.0.0",
+    "@react-native/babel-preset": "^0.77.0",
     "@react-native/eslint-config": "^0.77.0",
-    "@release-it/conventional-changelog": "^10.0.0",
+    "@release-it/conventional-changelog": "^11.0.0",
     "@types/jest": "^29.5.13",
     "@types/react": "^18.2.6",
     "@types/react-native": "^0.70.7",
@@ -61,13 +61,12 @@
     "eslint-plugin-prettier": "^3.4.1",
     "husky": "^4.2.5",
     "jest": "^29.2.1",
-    "@react-native/babel-preset": "^0.77.0",
     "pod-install": "^0.1.0",
     "prettier": "^2.8.0",
     "react": "^18.3.1",
     "react-native": "^0.77.0",
     "react-native-builder-bob": "^0.35.2",
-    "release-it": "^18.1.2",
+    "release-it": "^20.0.1",
     "typescript": "^5.0.4"
   },
   "peerDependencies": {
@@ -152,10 +151,9 @@
   "dependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.1.6",
-    "@types/node": ">=18",
-    "codecov": "^3.8.1"
+    "@types/node": ">=18"
   },
   "engines": {
-    "node": ">=18"
+    "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
   }
 }

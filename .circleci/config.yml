@@ -1,9 +1,12 @@
 version: 2.1
 
+orbs:
+  codecov: codecov/codecov@5.0.3
+
 executors:
   default:
     docker:
-      - image: cimg/node:22.13.0
+      - image: cimg/node:22.22.2
     working_directory: ~/project
 
 commands:
@@ -70,10 +73,8 @@ jobs:
           name: Run unit tests
           command: |
             yarn test --coverage
-      - run:
-          name: Codecov
-          command: |
-            yarn codecov
+      - codecov/upload:
+          files: coverage/coverage-final.json
       - store_artifacts:
           path: coverage
           destination: coverage
