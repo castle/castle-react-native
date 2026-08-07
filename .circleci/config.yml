@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  codecov: codecov/codecov@6.0.0
-
 executors:
   default:
     docker:
@@ -73,8 +70,6 @@ jobs:
           name: Run unit tests
           command: |
             yarn test --coverage
-      - codecov/upload:
-          files: coverage/coverage-final.json
       - store_artifacts:
           path: coverage
           destination: coverage
