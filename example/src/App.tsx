@@ -10,24 +10,21 @@ import {
 import Castle from '@castleio/react-native-castle';
 
 export default function App() {
-  const [requestToken, setRequestToken] = useState<string | undefined>();
+  const [requestToken, setRequestToken] = useState<string | null | undefined>();
   const [requestTokenHeaderName, setRequestTokenHeaderName] = useState<
     string | undefined
   >();
-  const [baseUrl, setBaseUrl] = useState<string | undefined>();
-  const [queueSize, setQueueSize] = useState<number | undefined>();
-  const [userAgent, setUserAgent] = useState<string | undefined>();
+  const [baseUrl, setBaseUrl] = useState<string | null | undefined>();
 
   useEffect(() => {
     Castle.configure({
       publishableKey: 'pk_CTsfAeRTqxGgA7HHxqpEESvjfPp4QAKA',
       debugLoggingEnabled: true,
       lifeCycleEventsEnabled: true,
-      sensorTrackingEnabled: true,
       maxQueueLimit: 1000,
       flushLimit: 20,
       useCloudflareApp: false,
-      baseURLAllowList: ['google.com', 'docs.castle.io'],
+      baseURLAllowList: ['https://google.com', 'https://docs.castle.io'],
     }).then(async () => {
       await Castle.userJwt(
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImVjMjQ0ZjMwLTM0MzItNGJiYy04OGYxLTFlM2ZjMDFiYzFmZSIsImVtYWlsIjoidGVzdEBleGFtcGxlLmNvbSIsInJlZ2lzdGVyZWRfYXQiOiIyMDIyLTAxLTAxVDA5OjA2OjE0LjgwM1oifQ.eAwehcXZDBBrJClaE0bkO9XAr4U3vqKUpyZ-d3SxnH0'
@@ -35,9 +32,8 @@ export default function App() {
 
       // Fetch properties
       Castle.createRequestToken().then(setRequestToken);
+      // baseUrl is iOS only, resolves null on Android
       Castle.baseUrl().then(setBaseUrl);
-      Castle.queueSize().then(setQueueSize);
-      Castle.userAgent().then(setUserAgent);
       Castle.requestTokenHeaderName().then(setRequestTokenHeaderName);
 
       // Set mock IDFA
@@ -51,8 +47,6 @@ export default function App() {
         <Text>Request token: {requestToken}</Text>
         <Text>Request token header name: {requestTokenHeaderName}</Text>
         <Text>BaseUrl: {baseUrl}</Text>
-        <Text>Queue size: {queueSize}</Text>
-        <Text>User Agent: {userAgent}</Text>
         <Button
           title="Track screen view"
           onPress={async () => {

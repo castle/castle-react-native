@@ -8,7 +8,6 @@ export interface Configuration {
     apiPath?: string;
     baseURLAllowList?: string[];
     lifeCycleEventsEnabled?: boolean;
-    sensorTrackingEnabled?: boolean;
 }
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;
 export interface JsonMap {
@@ -27,12 +26,10 @@ type CastleType = {
     flush(): Promise<void>;
     flushIfNeeded(url: string): Promise<boolean>;
     reset(): Promise<void>;
-    baseUrl(): Promise<string>;
+    baseUrl(): Promise<string | null>;
     setAdvertisingIdentifier(identifier: string): Promise<void>;
-    createRequestToken(): Promise<string>;
+    createRequestToken(): Promise<string | null>;
     requestTokenHeaderName(): Promise<string>;
-    userAgent(): Promise<string>;
-    queueSize(): Promise<number>;
 };
 export declare const Castle: any;
 declare const _default: CastleType;

@@ -13,7 +13,6 @@ beforeEach(async () => {
     publishableKey,
     debugLoggingEnabled: true,
     lifeCycleEventsEnabled: true,
-    sensorTrackingEnabled: true,
     maxQueueLimit: 1000,
     flushLimit: 20,
     useCloudflareApp: false,
@@ -37,8 +36,8 @@ it(
   )
 );
 it('call .requestTokenHeaderName()', testCall('requestTokenHeaderName'));
-it('call .queueSize()', testCall('queueSize'));
-it('call .userAgent()', testCall('userAgent'));
+it('call .createRequestToken()', testCall('createRequestToken'));
+it('call .baseUrl()', testCall('baseUrl'));
 it(
   'call .configureWithPublishableKey()',
   testCall('configureWithPublishableKey', publishableKey)
