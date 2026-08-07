@@ -1,6 +1,6 @@
 #import "RCTCastle.h"
 
-#import <Castle/Castle.h>
+@import CastleSDK;
 
 @interface RCTCastle ()
 @property (nonatomic, copy) NSString *idfa;
@@ -22,7 +22,7 @@ RCT_EXPORT_METHOD(requestTokenHeaderName
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    resolver(CastleRequestTokenHeaderName);
+    resolver([Castle requestTokenHeaderName]);
 }
 
 #pragma mark - Configuration
@@ -37,10 +37,10 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
                   :(RCTPromiseRejectBlock)rejecter)
 {
     // Configuration, disable automatic screen tracking.
-    // Since there is no straightforward way of adding global headers deviceIDAutoForwardingEnabled needs to be enabled
+    // Since there is no straightforward way of adding global headers tokenAutoForwardingEnabled needs to be enabled
     CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:options[@"publishableKey"]];
     configuration.screenTrackingEnabled = NO;
-    configuration.deviceIDAutoForwardingEnabled = YES;
+    configuration.tokenAutoForwardingEnabled = YES;
     [configuration setAdSupportBlock:^NSString* {
         return self.idfa;
     }];
@@ -58,20 +58,38 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
     }
 
     if (options[@"baseURLAllowList"]) {
-        configuration.baseURLAllowList = options[@"baseURLAllowList"];
+        configuration.baseURLAllowList = [RCTCastle URLsFromStrings:options[@"baseURLAllowList"]];
     }
 
     if (options[@"lifeCycleEventsEnabled"]) {
         configuration.enableApplicationLifecycleTracking = [options[@"lifeCycleEventsEnabled"] boolValue];
     }
 
-    if (options[@"sensorTrackingEnabled"]) {
-        configuration.enableSensorTracking = [options[@"sensorTrackingEnabled"] boolValue];
+    NSError *error = nil;
+    if (![Castle configure:configuration error:&error]) {
+        return rejecter(@"castle_configuration_error", error.localizedDescription, error);
     }
 
-    [Castle configure:configuration];
-
     return resolver(nil);
+}
+
+/**
+ Convert the base URL allow list coming from JavaScript into the NSURL array the
+ SDK expects. Entries that aren't parseable as URLs are skipped.
+
+ @param strings Array of URL strings
+ @return Array of NSURL instances
+ */
++ (NSArray<NSURL *> *)URLsFromStrings:(NSArray<NSString *> *)strings
+{
+    NSMutableArray<NSURL *> *urls = [NSMutableArray arrayWithCapacity:strings.count];
+    for (NSString *string in strings) {
+        NSURL *url = [NSURL URLWithString:string];
+        if (url) {
+            [urls addObject:url];
+        }
+    }
+    return urls;
 }
 
 /**
@@ -83,13 +101,12 @@ RCT_EXPORT_METHOD(configureWithPublishableKey:(nonnull NSString *)publishableKey
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
-    // Use default configuration, disable automatic screen tracking
-    // Since there is no straightforward way of adding global headers deviceIDAutoForwardingEnabled needs to be enabled
-    CastleConfiguration *configuration = [CastleConfiguration configurationWithPublishableKey:publishableKey];
-    configuration.screenTrackingEnabled = NO;
-    configuration.deviceIDAutoForwardingEnabled = NO;
-
-    [Castle configureWithPublishableKey:publishableKey];
+    // Use the default configuration, which already has both automatic screen
+    // tracking and token auto forwarding disabled.
+    NSError *error = nil;
+    if (![Castle configureWithPublishableKey:publishableKey error:&error]) {
+        return rejecter(@"castle_configuration_error", error.localizedDescription, error);
+    }
 
     return resolver(nil);
 }
@@ -209,35 +226,9 @@ RCT_EXPORT_METHOD(createRequestToken
                   :(RCTPromiseResolveBlock)resolver
                   :(RCTPromiseRejectBlock)rejecter)
 {
+    // Returns nil until the SDK has been configured
     NSString *token = [Castle createRequestToken];
     return resolver(token);
-}
-
-/**
- Get the User Agent for used in all requests to the Castle API.
- User agent will have the following format: App Name/x.x (xxxx) (iPhone XR; iOS xx.x; Castle x.x.x)
-
- @return User Agent
- */
-RCT_EXPORT_METHOD(userAgent
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSString *userAgent = [Castle userAgent];
-    return resolver(userAgent);
-}
-
-/**
- Get the current size of the event queue
-
- @return return The current size of the event queue
- */
-RCT_EXPORT_METHOD(queueSize
-                  :(RCTPromiseResolveBlock)resolver
-                  :(RCTPromiseRejectBlock)rejecter)
-{
-    NSUInteger queueSize = [Castle queueSize];
-    return resolver(@(queueSize));
 }
 
 @end
