@@ -16,7 +16,8 @@
  - Xcode 16.3+
 
 ### Android
- - Android 7.0
+ - Android 8.0 (API 26)
+ - compileSdkVersion 36
 
 ## Installation
 
@@ -40,6 +41,9 @@ Run `pod install` in the `ios` directory in order to link to the native iOS proj
 ```bash
 npx pod-install
 ```
+
+The Castle iOS SDK ships as a binary XCFramework vendored inside this package, so
+CocoaPods links, embeds and signs it for you. No extra Podfile setup is required.
 
 Once completed, re-build the app binary and start using the library
 
