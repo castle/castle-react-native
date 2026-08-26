@@ -4,7 +4,7 @@
 
 **Breaking changes**
 
-- Update Castle iOS SDK to 4.2.0.
+- Update Castle iOS SDK to 4.3.0.
 - Minimum iOS version raised to 13.0.
 - Update Castle Android SDK to 4.1.0.
 - Android raised `minSdkVersion` to 26 (Android 8.0) and `compileSdkVersion` to 36.
