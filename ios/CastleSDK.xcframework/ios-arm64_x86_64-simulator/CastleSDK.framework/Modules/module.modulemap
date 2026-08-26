@@ -1,0 +1,3 @@
+framework module CastleSDK {
+  header "CastleSDK-Swift.h"
+}

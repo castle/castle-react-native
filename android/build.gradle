@@ -30,7 +30,7 @@ android {
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
-    minSdkVersion 24
+    minSdkVersion 26
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
   }
 
@@ -138,5 +138,5 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  api 'io.castle.android:castle:3.1.8'
+  api 'io.castle.android:castle:4.1.0'
 }

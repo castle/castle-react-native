@@ -1,0 +1,85 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -Osize -enable-upcoming-feature StrictConcurrency -enable-upcoming-feature MemberImportVisibility -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CastleSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
+import AVFoundation
+@preconcurrency import CallKit
+import CoreLocation
+import CoreMotion
+import CoreTelephony
+import CryptoKit
+import Darwin
+import Foundation
+import GameController
+import LocalAuthentication
+import MachO
+import Metal
+import Network
+import ObjectiveC
+import Security
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public let CastleRequestTokenHeaderName: Swift.String
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(Castle) public class Castle : ObjectiveC.NSObject, @unchecked Swift.Sendable {
+  @objc deinit
+  @objc public static func configure(_ configuration: CastleSDK.CastleConfiguration) throws
+  @objc public static func configure(publishableKey: Swift.String) throws
+  @objc public static func configureAsync(_ configuration: CastleSDK.CastleConfiguration) async throws
+  @objc public static func resetConfiguration()
+  @objc(customWithName:) public static func custom(name: Swift.String)
+  @objc(customWithName:properties:) public static func custom(name: Swift.String, properties: [Swift.String : Any])
+  @objc(screenWithName:) public static func screen(name: Swift.String)
+  @objc(setUserJwt:) public static func userJwt(_ userJwt: Swift.String?)
+  @objc public static func flush()
+  @objc public static func flushIfNeeded(_ url: Foundation.URL)
+  @objc public static func reset()
+  @objc public static var requestTokenHeaderName: Swift.String {
+    @objc get
+  }
+  @objc public static func versionString() -> Swift.String
+  @objc public static func createRequestToken() -> Swift.String?
+  @objc public static func baseURL() -> Foundation.URL
+  @objc public static func isAllowlistURL(_ url: Foundation.URL?) -> Swift.Bool
+  @objc public static func publishableKey() -> Swift.String?
+  @objc public static func userJwt() -> Swift.String?
+}
+@objc public enum CastleConfigurationError : Swift.Int, Swift.Error {
+  case invalidPublishableKey = 0
+  case mustConfigureOnMainThread = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public static var _nsErrorDomain: Swift.String {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class CastleConfiguration : ObjectiveC.NSObject {
+  @objc public var publishableKey: Swift.String {
+    get
+  }
+  @objc(screenTrackingEnabled) public var isScreenTrackingEnabled: Swift.Bool
+  @objc(debugLoggingEnabled) public var isDebugLoggingEnabled: Swift.Bool
+  @objc(touchCollectionEnabled) public var isTouchCollectionEnabled: Swift.Bool
+  @objc(tokenAutoForwardingEnabled) public var isTokenAutoForwardingEnabled: Swift.Bool
+  @objc public var maxQueueLimit: Swift.Int
+  @objc public var flushLimit: Swift.Int
+  @objc public var adSupportBlock: (() -> Swift.String)?
+  @objc(enableAdvertisingTracking) public var isAdvertisingTrackingEnabled: Swift.Bool
+  @objc(enableApplicationLifecycleTracking) public var isApplicationLifecycleTrackingEnabled: Swift.Bool
+  @objc public var baseURLAllowList: [Foundation.URL]? {
+    @objc get
+    @objc set
+  }
+  @objc final public let baseURL: Foundation.URL
+  @objc public init(publishableKey: Swift.String)
+  @objc public static func configurationWithPublishableKey(_ publishableKey: Swift.String) -> CastleSDK.CastleConfiguration
+  @objc deinit
+}
+extension CastleSDK.CastleConfigurationError : Swift.Equatable {}
+extension CastleSDK.CastleConfigurationError : Swift.Hashable {}
+extension CastleSDK.CastleConfigurationError : Swift.RawRepresentable {}

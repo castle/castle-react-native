@@ -1,0 +1,5426 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CastleSDK",
+    "printedName": "CastleSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "GameController",
+        "printedName": "GameController",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Metal",
+        "printedName": "Metal",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Darwin",
+        "printedName": "Darwin",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "LocalAuthentication",
+        "printedName": "LocalAuthentication",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CallKit",
+        "printedName": "CallKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreTelephony",
+        "printedName": "CoreTelephony",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMotion",
+        "printedName": "CoreMotion",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Var",
+        "name": "CastleRequestTokenHeaderName",
+        "printedName": "CastleRequestTokenHeaderName",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:9CastleSDK0A22RequestTokenHeaderNameSSvp",
+        "mangledName": "$s9CastleSDK0A22RequestTokenHeaderNameSSvp",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:9CastleSDK0A22RequestTokenHeaderNameSSvg",
+            "mangledName": "$s9CastleSDK0A22RequestTokenHeaderNameSSvg",
+            "moduleName": "CastleSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Castle",
+        "printedName": "Castle",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CastleConfiguration",
+                "printedName": "CastleSDK.CastleConfiguration",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)configure:error:",
+            "mangledName": "$s9CastleSDK0A0C9configureyyAA0A13ConfigurationCKFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(publishableKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)configureWithPublishableKey:error:",
+            "mangledName": "$s9CastleSDK0A0C9configure14publishableKeyySS_tKFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "objc_name": "configureWithPublishableKey:error:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAsync",
+            "printedName": "configureAsync(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CastleConfiguration",
+                "printedName": "CastleSDK.CastleConfiguration",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)configureAsync:completionHandler:",
+            "mangledName": "$s9CastleSDK0A0C14configureAsyncyyAA0A13ConfigurationCYaKFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetConfiguration",
+            "printedName": "resetConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)resetConfiguration",
+            "mangledName": "$s9CastleSDK0A0C18resetConfigurationyyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "custom",
+            "printedName": "custom(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)customWithName:",
+            "mangledName": "$s9CastleSDK0A0C6custom4nameySS_tFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "objc_name": "customWithName:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "custom",
+            "printedName": "custom(name:properties:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)customWithName:properties:",
+            "mangledName": "$s9CastleSDK0A0C6custom4name10propertiesySS_SDySSypGtFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "objc_name": "customWithName:properties:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "screen",
+            "printedName": "screen(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)screenWithName:",
+            "mangledName": "$s9CastleSDK0A0C6screen4nameySS_tFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "objc_name": "screenWithName:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userJwt",
+            "printedName": "userJwt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)setUserJwt:",
+            "mangledName": "$s9CastleSDK0A0C7userJwtyySSSgFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "objc_name": "setUserJwt:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flush",
+            "printedName": "flush()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)flush",
+            "mangledName": "$s9CastleSDK0A0C5flushyyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "flushIfNeeded",
+            "printedName": "flushIfNeeded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)flushIfNeeded:",
+            "mangledName": "$s9CastleSDK0A0C13flushIfNeededyy10Foundation3URLVFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reset",
+            "printedName": "reset()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)reset",
+            "mangledName": "$s9CastleSDK0A0C5resetyyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "requestTokenHeaderName",
+            "printedName": "requestTokenHeaderName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cpy)requestTokenHeaderName",
+            "mangledName": "$s9CastleSDK0A0C22requestTokenHeaderNameSSvpZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)requestTokenHeaderName",
+                "mangledName": "$s9CastleSDK0A0C22requestTokenHeaderNameSSvgZ",
+                "moduleName": "CastleSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "versionString",
+            "printedName": "versionString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)versionString",
+            "mangledName": "$s9CastleSDK0A0C13versionStringSSyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createRequestToken",
+            "printedName": "createRequestToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)createRequestToken",
+            "mangledName": "$s9CastleSDK0A0C18createRequestTokenSSSgyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "baseURL",
+            "printedName": "baseURL()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)baseURL",
+            "mangledName": "$s9CastleSDK0A0C7baseURL10Foundation0D0VyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isAllowlistURL",
+            "printedName": "isAllowlistURL(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)isAllowlistURL:",
+            "mangledName": "$s9CastleSDK0A0C14isAllowlistURLySb10Foundation0E0VSgFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "publishableKey",
+            "printedName": "publishableKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)publishableKey",
+            "mangledName": "$s9CastleSDK0A0C14publishableKeySSSgyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userJwt",
+            "printedName": "userJwt()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)Castle(cm)userJwt",
+            "mangledName": "$s9CastleSDK0A0C7userJwtSSSgyFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CastleSDK@objc(cs)Castle",
+        "mangledName": "$s9CastleSDK0A0C",
+        "moduleName": "CastleSDK",
+        "objc_name": "Castle",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CastleConfigurationError",
+        "printedName": "CastleConfigurationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "invalidPublishableKey",
+            "printedName": "invalidPublishableKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CastleSDK.CastleConfigurationError.Type) -> CastleSDK.CastleConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CastleConfigurationError",
+                    "printedName": "CastleSDK.CastleConfigurationError",
+                    "usr": "c:@M@CastleSDK@E@CastleConfigurationError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CastleSDK.CastleConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CastleConfigurationError",
+                        "printedName": "CastleSDK.CastleConfigurationError",
+                        "usr": "c:@M@CastleSDK@E@CastleConfigurationError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CastleSDK@E@CastleConfigurationError@CastleConfigurationErrorInvalidPublishableKey",
+            "mangledName": "$s9CastleSDK0A18ConfigurationErrorO21invalidPublishableKeyyA2CmF",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "mustConfigureOnMainThread",
+            "printedName": "mustConfigureOnMainThread",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CastleSDK.CastleConfigurationError.Type) -> CastleSDK.CastleConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CastleConfigurationError",
+                    "printedName": "CastleSDK.CastleConfigurationError",
+                    "usr": "c:@M@CastleSDK@E@CastleConfigurationError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "CastleSDK.CastleConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CastleConfigurationError",
+                        "printedName": "CastleSDK.CastleConfigurationError",
+                        "usr": "c:@M@CastleSDK@E@CastleConfigurationError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@CastleSDK@E@CastleConfigurationError@CastleConfigurationErrorMustConfigureOnMainThread",
+            "mangledName": "$s9CastleSDK0A18ConfigurationErrorO25mustConfigureOnMainThreadyA2CmF",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CastleSDK.CastleConfigurationError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CastleConfigurationError",
+                    "printedName": "CastleSDK.CastleConfigurationError",
+                    "usr": "c:@M@CastleSDK@E@CastleConfigurationError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9CastleSDK0A18ConfigurationErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s9CastleSDK0A18ConfigurationErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "CastleSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CastleSDK0A18ConfigurationErrorO8rawValueSivp",
+            "mangledName": "$s9CastleSDK0A18ConfigurationErrorO8rawValueSivp",
+            "moduleName": "CastleSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A18ConfigurationErrorO8rawValueSivg",
+                "mangledName": "$s9CastleSDK0A18ConfigurationErrorO8rawValueSivg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9CastleSDK0A18ConfigurationErrorO03_nsD6DomainSSvpZ",
+            "mangledName": "$s9CastleSDK0A18ConfigurationErrorO03_nsD6DomainSSvpZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A18ConfigurationErrorO03_nsD6DomainSSvgZ",
+                "mangledName": "$s9CastleSDK0A18ConfigurationErrorO03_nsD6DomainSSvgZ",
+                "moduleName": "CastleSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@CastleSDK@E@CastleConfigurationError",
+        "mangledName": "$s9CastleSDK0A18ConfigurationErrorO",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CastleConfiguration",
+        "printedName": "CastleConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "publishableKey",
+            "printedName": "publishableKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)publishableKey",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC14publishableKeySSvp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)publishableKey",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC14publishableKeySSvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isScreenTrackingEnabled",
+            "printedName": "isScreenTrackingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)screenTrackingEnabled",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC23isScreenTrackingEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "screenTrackingEnabled",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)screenTrackingEnabled",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC23isScreenTrackingEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setScreenTrackingEnabled:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC23isScreenTrackingEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC23isScreenTrackingEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC23isScreenTrackingEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isDebugLoggingEnabled",
+            "printedName": "isDebugLoggingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)debugLoggingEnabled",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC21isDebugLoggingEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "debugLoggingEnabled",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)debugLoggingEnabled",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC21isDebugLoggingEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setDebugLoggingEnabled:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC21isDebugLoggingEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC21isDebugLoggingEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC21isDebugLoggingEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTouchCollectionEnabled",
+            "printedName": "isTouchCollectionEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)touchCollectionEnabled",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC24isTouchCollectionEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "touchCollectionEnabled",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)touchCollectionEnabled",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC24isTouchCollectionEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setTouchCollectionEnabled:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC24isTouchCollectionEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC24isTouchCollectionEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC24isTouchCollectionEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isTokenAutoForwardingEnabled",
+            "printedName": "isTokenAutoForwardingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)tokenAutoForwardingEnabled",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC28isTokenAutoForwardingEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "tokenAutoForwardingEnabled",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)tokenAutoForwardingEnabled",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isTokenAutoForwardingEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setTokenAutoForwardingEnabled:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isTokenAutoForwardingEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC28isTokenAutoForwardingEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isTokenAutoForwardingEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "maxQueueLimit",
+            "printedName": "maxQueueLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)maxQueueLimit",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC13maxQueueLimitSivp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)maxQueueLimit",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC13maxQueueLimitSivg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setMaxQueueLimit:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC13maxQueueLimitSivs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC13maxQueueLimitSivM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC13maxQueueLimitSivM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flushLimit",
+            "printedName": "flushLimit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)flushLimit",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC10flushLimitSivp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)flushLimit",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC10flushLimitSivg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setFlushLimit:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC10flushLimitSivs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC10flushLimitSivM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC10flushLimitSivM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adSupportBlock",
+            "printedName": "adSupportBlock",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> Swift.String)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> Swift.String",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)adSupportBlock",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC14adSupportBlockSSycSgvp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> Swift.String)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> Swift.String",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)adSupportBlock",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC14adSupportBlockSSycSgvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> Swift.String)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> Swift.String",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setAdSupportBlock:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC14adSupportBlockSSycSgvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC14adSupportBlockSSycSgvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC14adSupportBlockSSycSgvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isAdvertisingTrackingEnabled",
+            "printedName": "isAdvertisingTrackingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)enableAdvertisingTracking",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC28isAdvertisingTrackingEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "enableAdvertisingTracking",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)enableAdvertisingTracking",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isAdvertisingTrackingEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setEnableAdvertisingTracking:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isAdvertisingTrackingEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC28isAdvertisingTrackingEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC28isAdvertisingTrackingEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isApplicationLifecycleTrackingEnabled",
+            "printedName": "isApplicationLifecycleTrackingEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)enableApplicationLifecycleTracking",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC37isApplicationLifecycleTrackingEnabledSbvp",
+            "moduleName": "CastleSDK",
+            "objc_name": "enableApplicationLifecycleTracking",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)enableApplicationLifecycleTracking",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC37isApplicationLifecycleTrackingEnabledSbvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setEnableApplicationLifecycleTracking:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC37isApplicationLifecycleTrackingEnabledSbvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC37isApplicationLifecycleTrackingEnabledSbvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC37isApplicationLifecycleTrackingEnabledSbvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURLAllowList",
+            "printedName": "baseURLAllowList",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.URL]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.URL]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)baseURLAllowList",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC16baseURLAllowListSay10Foundation3URLVGSgvp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URL]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URL]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)baseURLAllowList",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC16baseURLAllowListSay10Foundation3URLVGSgvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Foundation.URL]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Foundation.URL]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)setBaseURLAllowList:",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC16baseURLAllowListSay10Foundation3URLVGSgvs",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9CastleSDK0A13ConfigurationC16baseURLAllowListSay10Foundation3URLVGSgvM",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC16baseURLAllowListSay10Foundation3URLVGSgvM",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(py)baseURL",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC7baseURL10Foundation0E0Vvp",
+            "moduleName": "CastleSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)baseURL",
+                "mangledName": "$s9CastleSDK0A13ConfigurationC7baseURL10Foundation0E0Vvg",
+                "moduleName": "CastleSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(publishableKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CastleConfiguration",
+                "printedName": "CastleSDK.CastleConfiguration",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)initWithPublishableKey:",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC14publishableKeyACSS_tcfc",
+            "moduleName": "CastleSDK",
+            "objc_name": "initWithPublishableKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "configurationWithPublishableKey",
+            "printedName": "configurationWithPublishableKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CastleConfiguration",
+                "printedName": "CastleSDK.CastleConfiguration",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(cm)configurationWithPublishableKey:",
+            "mangledName": "$s9CastleSDK0A13ConfigurationC31configurationWithPublishableKeyyACSSFZ",
+            "moduleName": "CastleSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CastleConfiguration",
+                "printedName": "CastleSDK.CastleConfiguration",
+                "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration(im)init",
+            "mangledName": "$s9CastleSDK0A13ConfigurationCACycfc",
+            "moduleName": "CastleSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CastleSDK@objc(cs)CastleConfiguration",
+        "mangledName": "$s9CastleSDK0A13ConfigurationC",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "CastleSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CastleSDK"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/Custom.swift",
+      "kind": "BooleanLiteral",
+      "offset": 498,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/Event.swift",
+      "kind": "BooleanLiteral",
+      "offset": 438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 10,
+      "value": "\"\/castle\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "kind": "Array",
+      "offset": 425,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 791,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Events\/Screen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 242,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 126,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 154,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 3,
+      "value": "0xB"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1119,
+      "length": 13,
+      "value": "2147483647"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 64,
+      "length": 21,
+      "value": "0xCBF29CE484222325"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4672,
+      "length": 4,
+      "value": "5381"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 131,
+      "length": 21,
+      "value": "0x87C37B91114253D5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
+      "kind": "IntegerLiteral",
+      "offset": 189,
+      "length": 21,
+      "value": "0x4CF5AD432745937F"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/NumConversions.swift",
+      "kind": "Array",
+      "offset": 81,
+      "length": 91,
+      "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 114,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 144,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 198,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 252,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 280,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 330,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "Array",
+      "offset": 3532,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3573,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "Array",
+      "offset": 4243,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4284,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "kind": "IntegerLiteral",
+      "offset": 115,
+      "length": 11,
+      "value": "0x9E3779B9"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "kind": "IntegerLiteral",
+      "offset": 169,
+      "length": 11,
+      "value": "0x45678907"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "kind": "IntegerLiteral",
+      "offset": 223,
+      "length": 11,
+      "value": "0xE7F2A9B0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "kind": "IntegerLiteral",
+      "offset": 277,
+      "length": 11,
+      "value": "0xA3B5C5D6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "kind": "Array",
+      "offset": 91,
+      "length": 15,
+      "value": "[-180.0, 180.0]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "kind": "Array",
+      "offset": 160,
+      "length": 13,
+      "value": "[-90.0, 90.0]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Format.swift",
+      "kind": "IntegerLiteral",
+      "offset": 59,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Format.swift",
+      "kind": "IntegerLiteral",
+      "offset": 70,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Grid.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1094,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "kind": "IntegerLiteral",
+      "offset": 186,
+      "length": 4,
+      "value": "0xA0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "kind": "IntegerLiteral",
+      "offset": 233,
+      "length": 4,
+      "value": "0xB0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 4,
+      "value": "0xF0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 80,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 103,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 128,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 153,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 208,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 117,
+      "length": 2,
+      "value": "64"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 166,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 21,
+      "value": "0xFF01FF01FF01FF01"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 21,
+      "value": "0xFE00FE00FE00FE00"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "kind": "Array",
+      "offset": 435,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 160,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 9,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 13,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 14,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 407,
+      "length": 7,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 424,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 7,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 8,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 3,
+      "value": "391"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 3,
+      "value": "843"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "FloatLiteral",
+      "offset": 616,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "StringLiteral",
+      "offset": 653,
+      "length": 8,
+      "value": "\"iphone\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "BooleanLiteral",
+      "offset": 696,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "BooleanLiteral",
+      "offset": 745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 837,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 872,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 940,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 974,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1018,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1061,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1097,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12283,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12299,
+      "length": 5,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12314,
+      "length": 6,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12330,
+      "length": 12,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 434,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 854,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "kind": "IntegerLiteral",
+      "offset": 81,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "kind": "FloatLiteral",
+      "offset": 112,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "kind": "FloatLiteral",
+      "offset": 146,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "kind": "FloatLiteral",
+      "offset": 227,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/NetworkMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 41,
+      "value": "\"com.castle.highwind.networkMonitorQueue\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 742,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 787,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 792,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "StringLiteral",
+      "offset": 872,
+      "length": 23,
+      "value": "\"DYLD_INSERT_LIBRARIES\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 915,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 920,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "StringLiteral",
+      "offset": 1000,
+      "length": 19,
+      "value": "\"DYLD_LIBRARY_PATH\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1044,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "Array",
+      "offset": 537,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "Dictionary",
+      "offset": 656,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 760,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 811,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 871,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "StringLiteral",
+      "offset": 12493,
+      "length": 15,
+      "value": "\"io.castle.sdk\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "kind": "StringLiteral",
+      "offset": 12550,
+      "length": 15,
+      "value": "\"persistent-id\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 454,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 490,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "BooleanLiteral",
+      "offset": 591,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "BooleanLiteral",
+      "offset": 649,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 688,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 12,
+      "value": "\"0000000000\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 24,
+      "value": "\"io.castle.callObserver\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1067,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1072,
+      "length": 2,
+      "value": "21"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1230,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1272,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1300,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1305,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1333,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1338,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1366,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1371,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1401,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1406,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1437,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1442,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1476,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1502,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1507,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1532,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1537,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1559,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1564,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1591,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1596,
+      "length": 2,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1621,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1626,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1652,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1657,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1739,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1744,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1773,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1778,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1812,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1817,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1854,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1859,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1888,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1893,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1930,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2034,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6676,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8317,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8335,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 622,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1545,
+      "length": 3,
+      "value": "0xE"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1613,
+      "length": 6,
+      "value": "0x4A7E"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1795,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2611,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2684,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3345,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Highwind.swift",
+      "kind": "BooleanLiteral",
+      "offset": 954,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14648,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14735,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14810,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14875,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14948,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15028,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15113,
+      "length": 3,
+      "value": "0x6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15191,
+      "length": 3,
+      "value": "0x7"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15278,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15347,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15437,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15499,
+      "length": 3,
+      "value": "0xB"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15567,
+      "length": 3,
+      "value": "0xC"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15643,
+      "length": 3,
+      "value": "0xD"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15730,
+      "length": 3,
+      "value": "0xE"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15802,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15880,
+      "length": 4,
+      "value": "0x11"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15954,
+      "length": 4,
+      "value": "0x12"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16025,
+      "length": 4,
+      "value": "0x13"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16121,
+      "length": 4,
+      "value": "0x14"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16229,
+      "length": 4,
+      "value": "0x15"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16335,
+      "length": 4,
+      "value": "0x16"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16534,
+      "length": 4,
+      "value": "0x17"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16610,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16719,
+      "length": 4,
+      "value": "0x19"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16805,
+      "length": 4,
+      "value": "0x1A"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16890,
+      "length": 4,
+      "value": "0x1B"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16976,
+      "length": 4,
+      "value": "0x1C"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17041,
+      "length": 4,
+      "value": "0x1D"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17132,
+      "length": 4,
+      "value": "0x1E"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17260,
+      "length": 4,
+      "value": "0x1F"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17387,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17487,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17592,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17666,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17744,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17828,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17909,
+      "length": 3,
+      "value": "0x6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17999,
+      "length": 3,
+      "value": "0x7"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18105,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18182,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18263,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18350,
+      "length": 3,
+      "value": "0xB"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18446,
+      "length": 3,
+      "value": "0xC"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18523,
+      "length": 3,
+      "value": "0xD"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18617,
+      "length": 3,
+      "value": "0xE"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18714,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18817,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18936,
+      "length": 4,
+      "value": "0x11"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19044,
+      "length": 4,
+      "value": "0x12"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19140,
+      "length": 4,
+      "value": "0x13"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19240,
+      "length": 4,
+      "value": "0x14"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19677,
+      "length": 4,
+      "value": "0x15"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19768,
+      "length": 4,
+      "value": "0x16"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19851,
+      "length": 4,
+      "value": "0x17"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19932,
+      "length": 4,
+      "value": "0x18"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20002,
+      "length": 4,
+      "value": "0x19"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20141,
+      "length": 4,
+      "value": "0x1A"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20242,
+      "length": 4,
+      "value": "0x1B"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20432,
+      "length": 4,
+      "value": "0x1C"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20554,
+      "length": 4,
+      "value": "0x1D"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20639,
+      "length": 4,
+      "value": "0x1E"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20727,
+      "length": 4,
+      "value": "0x1F"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20939,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21112,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21196,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21296,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21393,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21483,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21645,
+      "length": 3,
+      "value": "0x6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21739,
+      "length": 3,
+      "value": "0x7"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21874,
+      "length": 3,
+      "value": "0x8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22055,
+      "length": 3,
+      "value": "0x9"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22219,
+      "length": 3,
+      "value": "0xA"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22352,
+      "length": 3,
+      "value": "0xB"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22560,
+      "length": 3,
+      "value": "0xC"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22690,
+      "length": 3,
+      "value": "0xD"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22917,
+      "length": 3,
+      "value": "0xE"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23098,
+      "length": 3,
+      "value": "0xF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23220,
+      "length": 4,
+      "value": "0x10"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23333,
+      "length": 4,
+      "value": "0x11"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23428,
+      "length": 4,
+      "value": "0x12"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "Array",
+      "offset": 23708,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24916,
+      "length": 3,
+      "value": "0x0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24946,
+      "length": 3,
+      "value": "0x1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 24975,
+      "length": 3,
+      "value": "0x2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25004,
+      "length": 3,
+      "value": "0x3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25035,
+      "length": 3,
+      "value": "0x4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25067,
+      "length": 3,
+      "value": "0x5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25099,
+      "length": 3,
+      "value": "0x6"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25130,
+      "length": 3,
+      "value": "0x7"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 903,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 998,
+      "length": 4,
+      "value": "0.05"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 1053,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 1121,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 1172,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1279,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1453,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 2200,
+      "length": 33,
+      "value": "\"com.castle.highwind.sensorQueue\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2702,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 279,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 325,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 381,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3790,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4462,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4506,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4705,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4813,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5015,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5052,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5086,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5189,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5296,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5445,
+      "length": 3,
+      "value": "512"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 5653,
+      "length": 6,
+      "value": "0.0002"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5863,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "FloatLiteral",
+      "offset": 6067,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6367,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 6429,
+      "length": 31,
+      "value": "\"io.castle.highwind.touchQueue\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6640,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8204,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8293,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "kind": "Dictionary",
+      "offset": 8441,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "IntegerLiteral",
+      "offset": 451,
+      "length": 13,
+      "value": "1535000000"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2067,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "Array",
+      "offset": 5895,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7081,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7181,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Network\/CastleRequestInterceptor.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 34,
+      "value": "\"com.castle.CASRequestInterceptor\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Network\/CastleRequestInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 380,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 24,
+      "value": "\"X-Castle-Request-Token\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 10,
+      "value": "\"user-jwt\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 21,
+      "value": "\"CastleAppVersionKey\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "StringLiteral",
+      "offset": 352,
+      "length": 34,
+      "value": "\"00000000000000000000000000000000\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1552,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Castle.swift",
+      "kind": "Dictionary",
+      "offset": 10515,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 13,
+      "value": "\"m.castle.io\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 5,
+      "value": "\"v1\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 297,
+      "length": 5,
+      "value": "0xFFF"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 84,
+      "value": "\"https:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 408,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 769,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 925,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1980,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2472,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2875,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3039,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3195,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4002,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "Array",
+      "offset": 5044,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 5306,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 5316,
+      "length": 1,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "StringLiteral",
+      "offset": 5326,
+      "length": 1,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Configuration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5606,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/KeychainStore.swift",
+      "kind": "StringLiteral",
+      "offset": 89,
+      "length": 15,
+      "value": "\"io.castle.sdk\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 9,
+      "value": "\"[ERROR]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 8,
+      "value": "\"[INFO]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 9,
+      "value": "\"[DEBUG]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 529,
+      "length": 11,
+      "value": "\"[VERBOSE]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 575,
+      "length": 11,
+      "value": "\"[WARNING]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 10,
+      "value": "\"[SEVERE]\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1273,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
+      "length": 13,
+      "value": "\"en_US_POSIX\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 1372,
+      "length": 30,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 19,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/Model.swift",
+      "kind": "StringLiteral",
+      "offset": 2572,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/knistelberger\/gitrepos\/castle-swift\/castle-swift\/UIViewController+Screen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 175,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

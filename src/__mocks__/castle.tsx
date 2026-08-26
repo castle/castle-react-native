@@ -16,6 +16,4 @@ NativeModules.Castle = {
   requestTokenHeaderName: jest.fn(),
   userId: jest.fn(),
   userSignature: jest.fn(),
-  userAgent: jest.fn(),
-  queueSize: jest.fn(),
 };

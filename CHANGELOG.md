@@ -1,5 +1,25 @@
 # Changelog
 
+## 4.0.0 (2026-08-11)
+
+**Breaking changes**
+
+- Update Castle iOS SDK to 4.3.0.
+- Minimum iOS version raised to 13.0.
+- Update Castle Android SDK to 4.1.0.
+- Android raised `minSdkVersion` to 26 (Android 8.0) and `compileSdkVersion` to 36.
+- Removed `userAgent()` and `queueSize()`.
+- Removed the `sensorTrackingEnabled` configuration option.
+- `flushIfNeeded()` and `baseUrl()` are iOS only. On Android `flushIfNeeded()` is a no-op and `baseUrl()` resolves `null`.
+- `createRequestToken()` resolves `null` instead of an empty string when called before the SDK has been configured.
+- `configure()` and `configureWithPublishableKey()` now reject the promise if the SDK fails to configure.
+
+**Enhancements**
+
+- Add the `touchCollectionEnabled` configuration option, which toggles touch signal collection in Castle iOS 4.3.0. Defaults to `true` and is ignored on Android.
+- `setAdvertisingIdentifier()` is now implemented on Android.
+- `baseURLAllowList` entries are converted to URLs on iOS, so allow list matching works as documented. Entries must include a scheme, for example `https://api.example.com`.
+
 ## 2.3.0 (2026-05-28)
 
 - Update Castle iOS SDK to 3.2.0.
