@@ -10,6 +10,8 @@ export interface Configuration {
   apiPath?: string;
   baseURLAllowList?: string[];
   lifeCycleEventsEnabled?: boolean;
+  /** iOS only. Defaults to `true`. Ignored on Android. */
+  touchCollectionEnabled?: boolean;
 }
 
 export type JsonValue = boolean | number | string | null | JsonList | JsonMap;

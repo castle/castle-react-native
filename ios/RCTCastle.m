@@ -65,6 +65,10 @@ RCT_EXPORT_METHOD(configure:(nonnull NSDictionary *)options
         configuration.enableApplicationLifecycleTracking = [options[@"lifeCycleEventsEnabled"] boolValue];
     }
 
+    if (options[@"touchCollectionEnabled"]) {
+        configuration.touchCollectionEnabled = [options[@"touchCollectionEnabled"] boolValue];
+    }
+
     NSError *error = nil;
     if (![Castle configure:configuration error:&error]) {
         return rejecter(@"castle_configuration_error", error.localizedDescription, error);
