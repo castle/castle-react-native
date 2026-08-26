@@ -16,6 +16,7 @@
 
 **Enhancements**
 
+- Add the `touchCollectionEnabled` configuration option, which toggles touch signal collection in Castle iOS 4.3.0. Defaults to `true` and is ignored on Android.
 - `setAdvertisingIdentifier()` is now implemented on Android.
 - `baseURLAllowList` entries are converted to URLs on iOS, so allow list matching works as documented. Entries must include a scheme, for example `https://api.example.com`.
 
