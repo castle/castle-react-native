@@ -6,51 +6,51 @@
 	<dict>
 		<key>Headers/CastleSDK-Swift.h</key>
 		<data>
-		KkDj6dwn7apT3D3kq9L52boD5lI=
+		8KvwR/TOuk8lwcJo72F0PCkM6kE=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YqPc8mD38HOYC13Ql6n7zzd0E/g=
+		3nQkkeXrhXz3Y1uSzz+ml6K04aQ=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		NI6xespzifixEyDs7nP5pJNL4tk=
+		4ZOxPuLzhaHIiJ9nSwfrQsezu+c=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		juZ+tIpyOGvjux20sZPidry2IYs=
+		azmQNNxzjWjc7Srgeo3kEL8I05M=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5XyTCCHDold8uxywWT+E58nl2CI=
+		WgSzonzfLKbdQqfX5hwsfbNBLkw=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		juZ+tIpyOGvjux20sZPidry2IYs=
+		azmQNNxzjWjc7Srgeo3kEL8I05M=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FB2IwuLSBsHPJE1C8pYocQmX8ZU=
+		qZoEzFlBS4xROOAIXA7OagO7Ozo=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		NI6xespzifixEyDs7nP5pJNL4tk=
+		4ZOxPuLzhaHIiJ9nSwfrQsezu+c=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		9pUzt+dSLpRfWYJGXiNLJFTu2uI=
+		2DDvFG9Ez3mtc5XVAXMSwM1OwQc=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		EcjshIO6FxvHpLHvRimIlcpWMIM=
+		3MrazMLuACEgB7xFaU5rqYe4nYU=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9pUzt+dSLpRfWYJGXiNLJFTu2uI=
+		2DDvFG9Ez3mtc5XVAXMSwM1OwQc=
 		</data>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mrEisMFWau4DAs9qLmoCnHGBaeY=
+		4/0vzgEEYmazwEMwBTh+uhOdDTA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -60,6 +60,10 @@
 		<data>
 		4BgL9B04A9PWYVWCtFaPia3kRsc=
 		</data>
+		<key>settings.local.json</key>
+		<data>
+		ZiS6Dh0g12Spi1KagQahfj8Xd0M=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -67,77 +71,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KdoS5dt5AzYA4YUVtIDimEsfHxRpwjxGuAKy+TtjDXA=
+			IwAujn8anxG9bgNq8/jaIzbZVxgzIhAZQMpEe1NJ8Ng=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CgiGMm+HPV2ris0frHdDV6sYDyaLOdru90RxxKj0n+4=
+			Sh+NdTsmtZwaB70bZiQ3ytjcCQVWSxg1udY+44Wf21s=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vW4yAhyvdHN6PDg0IXnM/tFWInqViqjIYekR8M5epOc=
+			FVTgFRQERgMrEPc5/EPEMQB1s3vS6NYFPQpDMeZR0jw=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6tvsArSz/fcew9bGxiHJQUqIyEZ0fzVt3c5Vbhivf9w=
+			EtS0B6sBTpy2Fdv3d0+exQp9fX7TYh6XYeHb7phKK/k=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vW4yAhyvdHN6PDg0IXnM/tFWInqViqjIYekR8M5epOc=
+			FVTgFRQERgMrEPc5/EPEMQB1s3vS6NYFPQpDMeZR0jw=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6yHkMAkC3tY6Vr9HA7UBL/2bqfusei7GYwBwblwAAOY=
+			9vQvDGas9104r3jacGdIoe6dos4+W9Mr56IDA2DS+zA=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CgiGMm+HPV2ris0frHdDV6sYDyaLOdru90RxxKj0n+4=
+			Sh+NdTsmtZwaB70bZiQ3ytjcCQVWSxg1udY+44Wf21s=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			otU1RmHuhLHtp05F5udMZOyUEN4wNjzBWzjsbMFe6ZI=
+			CEb1ofIlo7MYnzY8Y9bEDe6NLgXdo+LpvBo/uVXhfLs=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fjJZhQp+MKoeWDuuM4Hs8vdGVd8wOcNPQRZam517DPg=
+			6Qz5tYXDXwgOKH/JZ/kGxp5ZZOxJHFVbL6l+P1fFq7Q=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			otU1RmHuhLHtp05F5udMZOyUEN4wNjzBWzjsbMFe6ZI=
+			CEb1ofIlo7MYnzY8Y9bEDe6NLgXdo+LpvBo/uVXhfLs=
 			</data>
 		</dict>
 		<key>Modules/CastleSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzE/sl43TOyGHHOFWOlMUpheYVl+bhwonghZeMcp/BI=
+			Oo1Nx5339/9gOWuSp/khvHQChVAmH41/IYgypQ0Bl+c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -152,6 +156,13 @@
 			<key>hash2</key>
 			<data>
 			h4iU47fZF/Nx9t42NrFwA1V0S5WiVI4dkG2UsmYO/bE=
+			</data>
+		</dict>
+		<key>settings.local.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ClA8PrsnjZJo4BaEWySDRQ/DsCNIJBYwLJR8xBaGeYM=
 			</data>
 		</dict>
 	</dict>

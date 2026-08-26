@@ -517,6 +517,9 @@ SWIFT_CLASS("_TtC9CastleSDK19CastleConfiguration")
 /// Set to <code>true</code> during development to inspect SDK behaviour. Disable for production
 /// builds.
 @property (nonatomic) BOOL debugLoggingEnabled;
+/// Collect touch interaction signals for request tokens. Default: <code>true</code>.
+/// Set to <code>false</code> to disable touch event collection.
+@property (nonatomic) BOOL touchCollectionEnabled;
 /// Automatically inject the Castle request token into outgoing <code>URLSession</code> requests
 /// whose host matches an entry in <code>baseURLAllowList</code>. Default: <code>false</code>.
 /// The token is added as the <code>X-Castle-Request-Token</code> header. Requires

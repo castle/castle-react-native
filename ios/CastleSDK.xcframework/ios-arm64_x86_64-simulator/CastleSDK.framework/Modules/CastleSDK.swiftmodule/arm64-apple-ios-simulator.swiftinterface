@@ -64,6 +64,7 @@ public let CastleRequestTokenHeaderName: Swift.String
   }
   @objc(screenTrackingEnabled) public var isScreenTrackingEnabled: Swift.Bool
   @objc(debugLoggingEnabled) public var isDebugLoggingEnabled: Swift.Bool
+  @objc(touchCollectionEnabled) public var isTouchCollectionEnabled: Swift.Bool
   @objc(tokenAutoForwardingEnabled) public var isTokenAutoForwardingEnabled: Swift.Bool
   @objc public var maxQueueLimit: Swift.Int
   @objc public var flushLimit: Swift.Int
