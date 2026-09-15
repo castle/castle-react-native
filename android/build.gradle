@@ -144,5 +144,5 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-  api 'io.castle.android:castle:4.1.0'
+  api 'io.castle.android:castle:4.1.1'
 }
