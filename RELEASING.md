@@ -7,7 +7,7 @@ vendored in this repository and has to be refreshed by hand whenever the native
 SDK is bumped:
 
 ```bash
-VERSION=4.3.0
+VERSION=4.3.1
 gh release download "$VERSION" --repo castle/castle-ios --pattern "Castle.xcframework.zip" --clobber
 
 # Verify the download matches the checksum in castle-ios' Package.swift
@@ -34,10 +34,10 @@ startup with `dyld: Library not loaded: @rpath/CastleSDK.framework/CastleSDK`.
 Create a new `X.Y.Z` branch from `master` and run:
 
 ```bash
-npm version <--major | --minor | --patch>
+npm version <major | minor | patch>
 
 # E.g., to upgrade, from 0.0.0 to 0.0.1 version, please run:
-# npm version --patch
+# npm version patch
 
 # after that commit files and create a version tag
 git tag -a version -m "<version>"

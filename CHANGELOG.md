@@ -1,5 +1,10 @@
 # Changelog
 
+## 4.0.1 (2026-09-15)
+
+- Update Castle iOS SDK to 4.3.1.
+- Update Castle Android SDK to 4.1.1.
+
 ## 4.0.0 (2026-08-11)
 
 **Breaking changes**
