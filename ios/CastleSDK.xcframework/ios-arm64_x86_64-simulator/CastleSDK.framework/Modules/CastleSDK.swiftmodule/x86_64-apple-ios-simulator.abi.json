@@ -364,20 +364,13 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "CastleSDK",
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "CastleSDK"
       },
       {
         "kind": "Import",
@@ -3591,14 +3584,35 @@
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 434,
+      "offset": 482,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
-      "offset": 854,
+      "offset": 594,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 658,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "kind": "IntegerLiteral",
+      "offset": 991,
       "length": 1,
       "value": "0"
     },
@@ -3745,14 +3759,14 @@
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "StringLiteral",
-      "offset": 12493,
+      "offset": 12383,
       "length": 15,
       "value": "\"io.castle.sdk\""
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "StringLiteral",
-      "offset": 12550,
+      "offset": 12440,
       "length": 15,
       "value": "\"persistent-id\""
     },
@@ -4144,56 +4158,56 @@
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 564,
+      "offset": 544,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 622,
+      "offset": 602,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1525,
       "length": 3,
       "value": "0xE"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1613,
+      "offset": 1593,
       "length": 6,
       "value": "0x4A7E"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 1795,
+      "offset": 1775,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2611,
+      "offset": 2591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2684,
+      "offset": 2664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3345,
+      "offset": 3325,
       "length": 4,
       "value": "true"
     },
