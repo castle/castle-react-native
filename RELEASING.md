@@ -7,7 +7,7 @@ vendored in this repository and has to be refreshed by hand whenever the native
 SDK is bumped:
 
 ```bash
-VERSION=4.3.2
+VERSION=4.3.3
 gh release download "$VERSION" --repo castle/castle-ios --pattern "Castle.xcframework.zip" --clobber
 
 # Verify the download matches the checksum in castle-ios' Package.swift

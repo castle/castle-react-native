@@ -2938,2513 +2938,2513 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/Custom.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/Custom.swift",
       "kind": "BooleanLiteral",
       "offset": 498,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/Event.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/Event.swift",
       "kind": "BooleanLiteral",
       "offset": 438,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/EventQueue.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 10,
       "value": "\"\/castle\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/EventQueue.swift",
       "kind": "StringLiteral",
       "offset": 195,
       "length": 8,
       "value": "\"events\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/EventQueue.swift",
       "kind": "IntegerLiteral",
       "offset": 238,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/EventQueue.swift",
       "kind": "Array",
       "offset": 425,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/EventQueue.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/EventQueue.swift",
       "kind": "BooleanLiteral",
       "offset": 791,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Events\/Screen.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Events\/Screen.swift",
       "kind": "BooleanLiteral",
       "offset": 242,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 126,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 154,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 183,
       "length": 3,
       "value": "0xB"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 225,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 264,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 1186,
       "length": 13,
       "value": "2147483647"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "IntegerLiteral",
       "offset": 1525,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Encoder.swift",
       "kind": "FloatLiteral",
       "offset": 1606,
       "length": 9,
       "value": "100000.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
       "kind": "IntegerLiteral",
       "offset": 64,
       "length": 21,
       "value": "0xCBF29CE484222325"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
       "kind": "IntegerLiteral",
       "offset": 742,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/Hashes.swift",
       "kind": "IntegerLiteral",
       "offset": 4672,
       "length": 4,
       "value": "5381"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
       "kind": "IntegerLiteral",
       "offset": 131,
       "length": 21,
       "value": "0x87C37B91114253D5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/MurmurHash3.swift",
       "kind": "IntegerLiteral",
       "offset": 189,
       "length": 21,
       "value": "0x4CF5AD432745937F"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/NumConversions.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/NumConversions.swift",
       "kind": "Array",
       "offset": 81,
       "length": 91,
       "value": "[\"0\", \"1\", \"2\", \"3\", \"4\", \"5\", \"6\", \"7\", \"8\", \"9\", \"a\", \"b\", \"c\", \"d\", \"e\", \"f\"]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 114,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 144,
       "length": 3,
       "value": "0x4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 198,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 252,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 280,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "IntegerLiteral",
       "offset": 330,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "Array",
       "offset": 3532,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "BooleanLiteral",
       "offset": 3573,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "Array",
       "offset": 4243,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/PayloadEncoder.swift",
       "kind": "BooleanLiteral",
       "offset": 4284,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
       "kind": "IntegerLiteral",
       "offset": 115,
       "length": 11,
       "value": "0x9E3779B9"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
       "kind": "IntegerLiteral",
       "offset": 169,
       "length": 11,
       "value": "0x45678907"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
       "kind": "IntegerLiteral",
       "offset": 223,
       "length": 11,
       "value": "0xE7F2A9B0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Encoding\/XXTEA.swift",
       "kind": "IntegerLiteral",
       "offset": 277,
       "length": 11,
       "value": "0xA3B5C5D6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
       "kind": "Array",
       "offset": 91,
       "length": 15,
       "value": "[-180.0, 180.0]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
       "kind": "Array",
       "offset": 160,
       "length": 13,
       "value": "[-90.0, 90.0]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Coordinate.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Format.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Format.swift",
       "kind": "IntegerLiteral",
       "offset": 59,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Format.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Format.swift",
       "kind": "IntegerLiteral",
       "offset": 70,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Grid.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Grid.swift",
       "kind": "IntegerLiteral",
       "offset": 1094,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Location.swift",
       "kind": "IntegerLiteral",
       "offset": 186,
       "length": 4,
       "value": "0xA0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Location.swift",
       "kind": "IntegerLiteral",
       "offset": 233,
       "length": 4,
       "value": "0xB0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Location.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Location.swift",
       "kind": "IntegerLiteral",
       "offset": 273,
       "length": 4,
       "value": "0xF0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 80,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 103,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 128,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 153,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 208,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/GeoZip\/Provider.swift",
       "kind": "IntegerLiteral",
       "offset": 255,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "IntegerLiteral",
       "offset": 117,
       "length": 2,
       "value": "64"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "IntegerLiteral",
       "offset": 166,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "IntegerLiteral",
       "offset": 224,
       "length": 21,
       "value": "0xFF01FF01FF01FF01"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "IntegerLiteral",
       "offset": 306,
       "length": 21,
       "value": "0xFE00FE00FE00FE00"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "IntegerLiteral",
       "offset": 416,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/BacktraceSignal.swift",
       "kind": "Array",
       "offset": 435,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 149,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 160,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 192,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 254,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 311,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 334,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 407,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 424,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 438,
       "length": 7,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 455,
       "length": 8,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 542,
       "length": 3,
       "value": "391"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 578,
       "length": 3,
       "value": "843"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "FloatLiteral",
       "offset": 616,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 8,
       "value": "\"iphone\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "BooleanLiteral",
       "offset": 696,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "BooleanLiteral",
       "offset": 745,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 837,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 872,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 905,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 940,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 974,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "BooleanLiteral",
       "offset": 1018,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "BooleanLiteral",
       "offset": 1061,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 1097,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 12283,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 12299,
       "length": 5,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 12314,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Hardware.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Hardware.swift",
       "kind": "IntegerLiteral",
       "offset": 12330,
       "length": 12,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 482,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 594,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 599,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "BooleanLiteral",
       "offset": 658,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/LocationProvider.swift",
       "kind": "IntegerLiteral",
       "offset": 991,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Metric.swift",
       "kind": "IntegerLiteral",
       "offset": 81,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Metric.swift",
       "kind": "FloatLiteral",
       "offset": 112,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Metric.swift",
       "kind": "FloatLiteral",
       "offset": 146,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Metric.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Metric.swift",
       "kind": "FloatLiteral",
       "offset": 227,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/NetworkMonitor.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/NetworkMonitor.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 41,
       "value": "\"com.castle.highwind.networkMonitorQueue\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 742,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 787,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 792,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "StringLiteral",
       "offset": 872,
       "length": 23,
       "value": "\"DYLD_INSERT_LIBRARIES\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 915,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 920,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "StringLiteral",
       "offset": 1000,
       "length": 19,
       "value": "\"DYLD_LIBRARY_PATH\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 1039,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/Security.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/Security.swift",
       "kind": "IntegerLiteral",
       "offset": 1044,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "Array",
       "offset": 537,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "Dictionary",
       "offset": 656,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "IntegerLiteral",
       "offset": 760,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "IntegerLiteral",
       "offset": 811,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "IntegerLiteral",
       "offset": 871,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "BooleanLiteral",
       "offset": 931,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "StringLiteral",
-      "offset": 12383,
+      "offset": 13009,
       "length": 15,
       "value": "\"io.castle.sdk\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/SignalCache.swift",
       "kind": "StringLiteral",
-      "offset": 12440,
+      "offset": 13066,
       "length": 15,
       "value": "\"persistent-id\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
       "offset": 454,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
       "offset": 490,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "BooleanLiteral",
       "offset": 591,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "BooleanLiteral",
-      "offset": 649,
-      "length": 5,
-      "value": "false"
+      "offset": 648,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
-      "offset": 688,
+      "offset": 686,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
-      "offset": 750,
+      "offset": 748,
       "length": 12,
       "value": "\"0000000000\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 988,
       "length": 24,
       "value": "\"io.castle.callObserver\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1067,
+      "offset": 1065,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1072,
+      "offset": 1070,
       "length": 2,
       "value": "21"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1230,
+      "offset": 1228,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1235,
+      "offset": 1233,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1267,
+      "offset": 1265,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1272,
+      "offset": 1270,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1300,
+      "offset": 1298,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1305,
+      "offset": 1303,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1333,
+      "offset": 1331,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1338,
+      "offset": 1336,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1366,
+      "offset": 1364,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1371,
+      "offset": 1369,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1401,
+      "offset": 1399,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1406,
+      "offset": 1404,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1437,
+      "offset": 1435,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1442,
+      "offset": 1440,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1471,
+      "offset": 1469,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1476,
+      "offset": 1474,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1502,
+      "offset": 1500,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1507,
+      "offset": 1505,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1532,
+      "offset": 1530,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1537,
+      "offset": 1535,
       "length": 1,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1559,
+      "offset": 1557,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1564,
+      "offset": 1562,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1591,
+      "offset": 1589,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1596,
+      "offset": 1594,
       "length": 2,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1621,
+      "offset": 1619,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1626,
+      "offset": 1624,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1652,
+      "offset": 1650,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1657,
+      "offset": 1655,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1739,
+      "offset": 1737,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1744,
+      "offset": 1742,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1773,
+      "offset": 1771,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1778,
+      "offset": 1776,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1812,
+      "offset": 1810,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1817,
+      "offset": 1815,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1854,
+      "offset": 1852,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1859,
+      "offset": 1857,
       "length": 2,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1888,
+      "offset": 1886,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1893,
+      "offset": 1891,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1930,
+      "offset": 1928,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 1935,
+      "offset": 1933,
       "length": 2,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 2029,
+      "offset": 2027,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 2034,
+      "offset": 2032,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "BooleanLiteral",
-      "offset": 6676,
+      "offset": 6674,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 8317,
+      "offset": 8315,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Signals\/System.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Signals\/System.swift",
       "kind": "IntegerLiteral",
-      "offset": 8335,
+      "offset": 8333,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 544,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 602,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 1525,
       "length": 3,
       "value": "0xE"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 1593,
       "length": 6,
       "value": "0x4A7E"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 1775,
       "length": 4,
       "value": "0xFF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "BooleanLiteral",
       "offset": 2591,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "IntegerLiteral",
       "offset": 2664,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Generator.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Generator.swift",
       "kind": "BooleanLiteral",
       "offset": 3325,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Highwind.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Highwind.swift",
       "kind": "BooleanLiteral",
       "offset": 954,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "StringLiteral",
       "offset": 5993,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 14670,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 14757,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 14832,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 14897,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 14970,
       "length": 3,
       "value": "0x4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15050,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15135,
       "length": 3,
       "value": "0x6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15213,
       "length": 3,
       "value": "0x7"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15300,
       "length": 3,
       "value": "0x8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15369,
       "length": 3,
       "value": "0x9"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15459,
       "length": 3,
       "value": "0xA"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15521,
       "length": 3,
       "value": "0xB"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15589,
       "length": 3,
       "value": "0xC"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15665,
       "length": 3,
       "value": "0xD"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15752,
       "length": 3,
       "value": "0xE"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15824,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15902,
       "length": 4,
       "value": "0x11"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 15976,
       "length": 4,
       "value": "0x12"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16047,
       "length": 4,
       "value": "0x13"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16143,
       "length": 4,
       "value": "0x14"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16251,
       "length": 4,
       "value": "0x15"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16357,
       "length": 4,
       "value": "0x16"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16556,
       "length": 4,
       "value": "0x17"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16632,
       "length": 4,
       "value": "0x18"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16741,
       "length": 4,
       "value": "0x19"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16827,
       "length": 4,
       "value": "0x1A"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16912,
       "length": 4,
       "value": "0x1B"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 16998,
       "length": 4,
       "value": "0x1C"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17063,
       "length": 4,
       "value": "0x1D"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17154,
       "length": 4,
       "value": "0x1E"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17282,
       "length": 4,
       "value": "0x1F"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17567,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17667,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17772,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17846,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 17924,
       "length": 3,
       "value": "0x4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18008,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18089,
       "length": 3,
       "value": "0x6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18179,
       "length": 3,
       "value": "0x7"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18285,
       "length": 3,
       "value": "0x8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18362,
       "length": 3,
       "value": "0x9"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18443,
       "length": 3,
       "value": "0xA"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18530,
       "length": 3,
       "value": "0xB"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18626,
       "length": 3,
       "value": "0xC"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18703,
       "length": 3,
       "value": "0xD"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18797,
       "length": 3,
       "value": "0xE"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18894,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 18997,
       "length": 4,
       "value": "0x10"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19116,
       "length": 4,
       "value": "0x11"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19224,
       "length": 4,
       "value": "0x12"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19320,
       "length": 4,
       "value": "0x13"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19420,
       "length": 4,
       "value": "0x14"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19857,
       "length": 4,
       "value": "0x15"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 19948,
       "length": 4,
       "value": "0x16"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20031,
       "length": 4,
       "value": "0x17"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20112,
       "length": 4,
       "value": "0x18"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20182,
       "length": 4,
       "value": "0x19"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20321,
       "length": 4,
       "value": "0x1A"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20422,
       "length": 4,
       "value": "0x1B"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20612,
       "length": 4,
       "value": "0x1C"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20734,
       "length": 4,
       "value": "0x1D"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20819,
       "length": 4,
       "value": "0x1E"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 20907,
       "length": 4,
       "value": "0x1F"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21119,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21292,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21376,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21476,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21573,
       "length": 3,
       "value": "0x4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21663,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21825,
       "length": 3,
       "value": "0x6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 21919,
       "length": 3,
       "value": "0x7"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22054,
       "length": 3,
       "value": "0x8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22235,
       "length": 3,
       "value": "0x9"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22399,
       "length": 3,
       "value": "0xA"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22532,
       "length": 3,
       "value": "0xB"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22740,
       "length": 3,
       "value": "0xC"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 22870,
       "length": 3,
       "value": "0xD"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 23097,
       "length": 3,
       "value": "0xE"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 23278,
       "length": 3,
       "value": "0xF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 23400,
       "length": 4,
       "value": "0x10"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 23513,
       "length": 4,
       "value": "0x11"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 23608,
       "length": 4,
       "value": "0x12"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "Array",
       "offset": 23888,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25096,
       "length": 3,
       "value": "0x0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25126,
       "length": 3,
       "value": "0x1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25155,
       "length": 3,
       "value": "0x2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25184,
       "length": 3,
       "value": "0x3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25215,
       "length": 3,
       "value": "0x4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25247,
       "length": 3,
       "value": "0x5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25279,
       "length": 3,
       "value": "0x6"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Parameter.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Parameter.swift",
       "kind": "IntegerLiteral",
       "offset": 25310,
       "length": 3,
       "value": "0x7"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 903,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "FloatLiteral",
       "offset": 998,
       "length": 4,
       "value": "0.05"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1053,
       "length": 4,
       "value": "0.15"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1121,
       "length": 3,
       "value": "0.8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "FloatLiteral",
       "offset": 1172,
       "length": 6,
       "value": "1000.0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 1279,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 1453,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "StringLiteral",
       "offset": 2213,
       "length": 33,
       "value": "\"com.castle.highwind.sensorQueue\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 2561,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/SensorTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/SensorTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 2715,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 325,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 381,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 442,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 3790,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 4462,
       "length": 2,
       "value": "30"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 4506,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 4705,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 4813,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5015,
       "length": 2,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5052,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5086,
       "length": 2,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5189,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5296,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5445,
       "length": 3,
       "value": "512"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "FloatLiteral",
       "offset": 5653,
       "length": 6,
       "value": "0.0002"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 5863,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "FloatLiteral",
       "offset": 6067,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 6367,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "StringLiteral",
       "offset": 6429,
       "length": 31,
       "value": "\"io.castle.highwind.touchQueue\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "BooleanLiteral",
       "offset": 6640,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 8204,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 8231,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 8258,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "IntegerLiteral",
       "offset": 8293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/TouchTracker.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/TouchTracker.swift",
       "kind": "Dictionary",
       "offset": 8441,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "IntegerLiteral",
       "offset": 451,
       "length": 13,
       "value": "1535000000"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "IntegerLiteral",
       "offset": 3279,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "Array",
       "offset": 7107,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "IntegerLiteral",
       "offset": 8293,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "IntegerLiteral",
       "offset": 8329,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Highwind\/Util.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Highwind\/Util.swift",
       "kind": "IntegerLiteral",
       "offset": 8393,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Network\/CastleRequestInterceptor.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Network\/CastleRequestInterceptor.swift",
       "kind": "StringLiteral",
       "offset": 198,
       "length": 34,
       "value": "\"com.castle.CASRequestInterceptor\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Network\/CastleRequestInterceptor.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Network\/CastleRequestInterceptor.swift",
       "kind": "BooleanLiteral",
       "offset": 380,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "StringLiteral",
       "offset": 185,
       "length": 24,
       "value": "\"X-Castle-Request-Token\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "StringLiteral",
       "offset": 254,
       "length": 10,
       "value": "\"user-jwt\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 21,
       "value": "\"CastleAppVersionKey\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "StringLiteral",
       "offset": 352,
       "length": 34,
       "value": "\"00000000000000000000000000000000\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "BooleanLiteral",
       "offset": 1552,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Castle.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Castle.swift",
       "kind": "Dictionary",
       "offset": 10515,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 183,
       "length": 13,
       "value": "\"m.castle.io\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 244,
       "length": 5,
       "value": "\"v1\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 297,
       "length": 5,
       "value": "0xFFF"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 84,
       "value": "\"https:\/\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 408,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 769,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 925,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 1980,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 2238,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 2472,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 2875,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 3039,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 3195,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 4002,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "BooleanLiteral",
       "offset": 4444,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "Array",
       "offset": 5044,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 5306,
       "length": 22,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 5316,
       "length": 1,
       "value": "\":\/\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "StringLiteral",
       "offset": 5326,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Configuration.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Configuration.swift",
       "kind": "IntegerLiteral",
       "offset": 5606,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/KeychainStore.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/KeychainStore.swift",
       "kind": "StringLiteral",
       "offset": 89,
       "length": 15,
       "value": "\"io.castle.sdk\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 396,
       "length": 9,
       "value": "\"[ERROR]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 8,
       "value": "\"[INFO]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 485,
       "length": 9,
       "value": "\"[DEBUG]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 11,
       "value": "\"[VERBOSE]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 575,
       "length": 11,
       "value": "\"[WARNING]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Logger.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 620,
       "length": 10,
       "value": "\"[SEVERE]\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Model.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1273,
       "length": 5,
       "value": "\"UTC\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Model.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1326,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Model.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Model.swift",
       "kind": "StringLiteral",
       "offset": 1372,
       "length": 30,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Model.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2554,
       "length": 19,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/Model.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/Model.swift",
       "kind": "StringLiteral",
       "offset": 2572,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aLxx\/castle\/castle-swift\/castle-swift\/UIViewController+Screen.swift",
+      "filePath": "\/Users\/distiller\/project\/castle-swift\/UIViewController+Screen.swift",
       "kind": "BooleanLiteral",
       "offset": 175,
       "length": 5,
